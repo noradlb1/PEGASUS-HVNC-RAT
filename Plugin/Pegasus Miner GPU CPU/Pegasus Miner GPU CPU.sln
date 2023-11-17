@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Pegasus Miner GPU CPU\Plugin.csproj", "{97761A8A-6532-4AFD-9C1A-1D95DB145576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97761A8A-6532-4AFD-9C1A-1D95DB145576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97761A8A-6532-4AFD-9C1A-1D95DB145576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97761A8A-6532-4AFD-9C1A-1D95DB145576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97761A8A-6532-4AFD-9C1A-1D95DB145576}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CC2DA2A-290C-46BF-AA6C-C853B58BA035}
+	EndGlobalSection
+EndGlobal

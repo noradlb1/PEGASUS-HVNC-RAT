@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Miscellaneous\Miscellaneous\obj\Release\ML.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Miscellaneous\Miscellaneous\obj\Release\Miscellaneous.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Miscellaneous\Miscellaneous\obj\Release\ML.dll

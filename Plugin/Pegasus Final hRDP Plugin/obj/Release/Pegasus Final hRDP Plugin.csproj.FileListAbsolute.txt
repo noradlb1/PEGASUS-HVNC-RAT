@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Final hRDP Plugin\obj\Release\Pegasus Final hRDP Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Final hRDP Plugin\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Final hRDP Plugin\obj\Release\Pegasus Final hRDP Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Final hRDP Plugin\obj\Release\Pegasus Final hRDP Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Final hRDP Plugin\obj\Release\hDesk.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Final hRDP Plugin\obj\Release\hDesk.pdb

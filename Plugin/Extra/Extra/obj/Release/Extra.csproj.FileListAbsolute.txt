@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Release\Extra.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Release\Extra.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Release\EX.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Release\Extra.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Release\Extra.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Release\EX.dll

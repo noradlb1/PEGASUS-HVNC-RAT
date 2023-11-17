@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileManager\FileManager\obj\Debug\FileManager.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileManager\FileManager\obj\Debug\FileManager.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileManager\FileManager\obj\Debug\FM.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileManager\FileManager\obj\Debug\FM.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\FileManager\FileManager\obj\Debug\FileManager.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\FileManager\FileManager\obj\Debug\FileManager.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\FileManager\FileManager\obj\Debug\FM.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\FileManager\FileManager\obj\Debug\FM.pdb

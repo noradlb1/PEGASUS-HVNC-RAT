@@ -1,0 +1,69 @@
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\custom_alert_notifications.alert.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.CPUClientSettings.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.DLLInjectionPanel.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormMiner.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormPowerShell.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmCSPM.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmDiscordST3.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmEmailer.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmNgrokPanel.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmReverseProxy.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmWebHookSPM.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.GPUClientSettings.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.Login.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.PEGASUS.HVNC.FrmVNC.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\HVNC.FrmMassUpdate.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\HVNC.FrmTransfer.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\HVNC.FrmURL.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.PeToShell.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.VNCForm.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormBuilder.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmAngry.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmNoStub.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmKATANA.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.FrmSplash.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormFun.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormRegValueEditBinary.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormAbout.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormAudio.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormBlockClients.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormCertificate.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormChat.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormDOS.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormFileManager.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormFileSearcher.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormKeylogger.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormNetstat.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormPorts.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormProcessManager.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormRegValueEditMultiString.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormRegValueEditString.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormRegValueEditWord.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormRemoteDesktop.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormDownloadFile.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormSetting.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormShell.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormWebcam.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FormRegistryEditor.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmInfo.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.FrmReco.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\InputDialog.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.Register.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.Splashes.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.PEGALISIUS.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Design.Welcome.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.Properties.Resources.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.FormSendFileToMemory.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.strings.en-US.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\Pegasus R.A.T.exe
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\Pegasus R.A.T.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\Pegasus R.A.T.exe.config
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\Pegasus R.A.T.exe
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\Pegasus R.A.T.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\en-US\Pegasus R.A.T.resources.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.csproj.Fody.CopyLocal.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\en-US\Pegasus R.A.T.resources.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Server\obj\Debug\PEGASUS.csproj.CopyComplete

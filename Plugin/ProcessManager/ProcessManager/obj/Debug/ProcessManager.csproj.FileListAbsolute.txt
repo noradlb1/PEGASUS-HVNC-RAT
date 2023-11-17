@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Debug\ProcessManager.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Debug\ProcessManager.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Debug\PM.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Debug\PM.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Debug\ProcessManager.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Debug\ProcessManager.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Debug\PM.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Debug\PM.pdb

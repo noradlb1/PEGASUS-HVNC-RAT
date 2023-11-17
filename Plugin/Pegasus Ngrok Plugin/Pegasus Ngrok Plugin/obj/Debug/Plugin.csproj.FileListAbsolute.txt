@@ -1,0 +1,6 @@
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Ngrok Plugin\Pegasus Ngrok Plugin\obj\Debug\Plugin.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Ngrok Plugin\Pegasus Ngrok Plugin\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Ngrok Plugin\Pegasus Ngrok Plugin\obj\Debug\Plugin.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Ngrok Plugin\Pegasus Ngrok Plugin\obj\Debug\Plugin.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Ngrok Plugin\Pegasus Ngrok Plugin\obj\Debug\Ngrok.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Ngrok Plugin\Pegasus Ngrok Plugin\obj\Debug\Ngrok.pdb

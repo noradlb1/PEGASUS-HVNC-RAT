@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\MCG.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\MCG.pdb
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\MCG.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Pegasus Miner GPU CPU\Pegasus Miner GPU CPU\obj\Release\MCG.pdb

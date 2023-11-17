@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Release\Chat.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Release\Plugin.FormChat.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Release\Chat.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Release\Chat.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Release\CT.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Release\Chat.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Release\Plugin.FormChat.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Release\Chat.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Release\Chat.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Release\CT.dll

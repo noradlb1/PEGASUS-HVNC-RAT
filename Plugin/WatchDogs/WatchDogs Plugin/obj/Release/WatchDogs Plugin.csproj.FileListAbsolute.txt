@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs.pdb
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\WatchDogs\WatchDogs Plugin\obj\Release\WatchDogs.pdb

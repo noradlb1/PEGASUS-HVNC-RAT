@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\SendFile\SendFile\obj\Debug\SendFile.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\SendFile\SendFile\obj\Debug\SendFile.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\SendFile\SendFile\obj\Debug\SF.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\SendFile\SendFile\obj\Debug\SF.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\SendFile\SendFile\obj\Debug\SendFile.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\SendFile\SendFile\obj\Debug\SendFile.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\SendFile\SendFile\obj\Debug\SF.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\SendFile\SendFile\obj\Debug\SF.pdb

@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteCamera\RemoteCamera\obj\Release\RemoteCamera.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteCamera\RemoteCamera\obj\Release\RemoteCamera.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteCamera\RemoteCamera\obj\Release\RC.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\RemoteCamera\RemoteCamera\obj\Release\RemoteCamera.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\RemoteCamera\RemoteCamera\obj\Release\RemoteCamera.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\RemoteCamera\RemoteCamera\obj\Release\RC.dll

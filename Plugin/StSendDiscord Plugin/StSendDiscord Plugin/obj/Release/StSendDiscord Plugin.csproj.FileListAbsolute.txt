@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\StSendDiscord Plugin\StSendDiscord Plugin\obj\Release\StSendDiscord Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\StSendDiscord Plugin\StSendDiscord Plugin\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\StSendDiscord Plugin\StSendDiscord Plugin\obj\Release\StSendDiscord Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\StSendDiscord Plugin\StSendDiscord Plugin\obj\Release\StSendDiscord Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\StSendDiscord Plugin\StSendDiscord Plugin\obj\Release\StS.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\StSendDiscord Plugin\StSendDiscord Plugin\obj\Release\StS.pdb

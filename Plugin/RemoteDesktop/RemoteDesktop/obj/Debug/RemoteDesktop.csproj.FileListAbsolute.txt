@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RD.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RD.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RemoteDesktop.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RD.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\RemoteDesktop\RemoteDesktop\obj\Debug\RD.pdb

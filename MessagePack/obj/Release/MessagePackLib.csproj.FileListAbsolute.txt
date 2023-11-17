@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Release\MessagePackLib.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Release\MessagePackLib.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Release\MessagePackLib.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\MessagePack\obj\Release\MessagePackLib.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\MessagePack\obj\Release\MessagePackLib.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\MessagePack\obj\Release\MessagePackLib.dll

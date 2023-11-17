@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SpamPlugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SpamPlugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SpamPlugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SPM.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SPM.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SpamPlugin.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SpamPlugin.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SpamPlugin.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SPM.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Debug\SPM.pdb

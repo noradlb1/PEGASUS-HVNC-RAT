@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileSearcher\FileSearcher\obj\Release\FileSearcher.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileSearcher\FileSearcher\obj\Release\FileSearcher.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\FileSearcher\FileSearcher\obj\Release\FS.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\FileSearcher\FileSearcher\obj\Release\FileSearcher.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\FileSearcher\FileSearcher\obj\Release\FileSearcher.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\FileSearcher\FileSearcher\obj\Release\FS.dll

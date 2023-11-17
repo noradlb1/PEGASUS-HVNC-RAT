@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Audio\Audio\obj\Release\Audio.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Audio\Audio\obj\Release\Audio.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Audio\Audio\obj\Release\AUD.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Audio\Audio\obj\Release\Audio.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Audio\Audio\obj\Release\Audio.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Audio\Audio\obj\Release\AUD.dll

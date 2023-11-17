@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Debug\Extra.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Debug\Extra.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Debug\EX.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Extra\Extra\obj\Debug\EX.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Debug\Extra.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Debug\Extra.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Debug\EX.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Extra\Extra\obj\Debug\EX.pdb

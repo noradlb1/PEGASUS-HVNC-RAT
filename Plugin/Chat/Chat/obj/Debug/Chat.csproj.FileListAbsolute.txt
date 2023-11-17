@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\Chat.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\Plugin.FormChat.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\Chat.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\CT.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Chat\Chat\obj\Debug\CT.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\Chat.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\Plugin.FormChat.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\Chat.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\Chat.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\CT.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Chat\Chat\obj\Debug\CT.pdb

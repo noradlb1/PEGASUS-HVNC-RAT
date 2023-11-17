@@ -1,0 +1,859 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7767C300-5FD5-4A5D-9D4C-59559CCE48A3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>PEGASUS</RootNamespace>
+    <AssemblyName>Pegasus R.A.T</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RazorCompileOnBuild>false</RazorCompileOnBuild>
+    <RazorCompileOnPublish>true</RazorCompileOnPublish>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Binaries\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>true</Prefer32Bit>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Binaries\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PEGASUS.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>PEGASUS.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AntiRE.Runtime">
+      <HintPath>C:\Users\NIKOS\OneDrive\Εικόνες\Έγγραφα\Anti\pega anti\AntiRE.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.6.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.6.1\lib\BouncyCastle.Crypto.dll</HintPath>
+      <Private>True</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Costura, Version=5.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.5.7.0\lib\netstandard1.0\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="dnlib, Version=3.3.2.0, Culture=neutral, PublicKeyToken=50e96378b6e77999, processorArchitecture=MSIL">
+      <HintPath>..\packages\dnlib.3.3.2\lib\net45\dnlib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="IconExtractor">
+      <HintPath>..\Miner\Miner\spanel\IconExtractor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Kernel32, Version=0.7.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Kernel32.0.7.104\lib\net46\PInvoke.Kernel32.dll</HintPath>
+    </Reference>
+    <Reference Include="PInvoke.Windows.Core, Version=0.7.0.0, Culture=neutral, PublicKeyToken=9e300f9f87f04a7a, processorArchitecture=MSIL">
+      <HintPath>..\packages\PInvoke.Windows.Core.0.7.104\lib\net45\PInvoke.Windows.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="protobuf-net, Version=2.4.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\protobuf-net.2.4.6\lib\net40\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Collections.Immutable.6.0.0\lib\net461\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\net461\lib\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata, Version=6.0.0.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Reflection.Metadata.6.0.1\lib\net461\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.ReaderWriter, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Xml.ReaderWriter.4.3.1\lib\net46\System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="ToolBelt, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ToolBelt.4.0.10611.1\lib\net45\ToolBelt.dll</HintPath>
+    </Reference>
+    <Reference Include="Vestris.ResourceLib, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Vestris.ResourceLib.2.1.0\lib\net45\Vestris.ResourceLib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BytesInOut\HandleHVNC.cs" />
+    <Compile Include="Cryptografhsh\AES.cs" />
+    <Compile Include="Cryptografhsh\Aes256.cs" />
+    <Compile Include="Cryptografhsh\CryptographyHelper.cs" />
+    <Compile Include="Cryptografhsh\GetHash.cs" />
+    <Compile Include="Cryptografhsh\GZip.cs" />
+    <Compile Include="Cryptografhsh\Sha256.cs" />
+    <Compile Include="Cryptografhsh\Zip.cs" />
+    <Compile Include="Design\alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\alert.designer.cs">
+      <DependentUpon>alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\CPUClientSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\CPUClientSettings.Designer.cs">
+      <DependentUpon>CPUClientSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\CustomControls\ListViewExtensions.cs" />
+    <Compile Include="Design\CustomControls\rJxFkNmU.cs" />
+    <Compile Include="Design\CustomControls\TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\DLLInjectionPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\DLLInjectionPanel.Designer.cs">
+      <DependentUpon>DLLInjectionPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormMiner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormMiner.designer.cs">
+      <DependentUpon>FormMiner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormPowerShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormPowerShell.designer.cs">
+      <DependentUpon>FormPowerShell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmCSPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmCSPM.Designer.cs">
+      <DependentUpon>FrmCSPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmDiscordST3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmDiscordST3.designer.cs">
+      <DependentUpon>FrmDiscordST3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmEmailer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmEmailer.Designer.cs">
+      <DependentUpon>FrmEmailer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmNgrokPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmNgrokPanel.Designer.cs">
+      <DependentUpon>FrmNgrokPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmReverseProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmReverseProxy.designer.cs">
+      <DependentUpon>FrmReverseProxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmWebHookSPM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmWebHookSPM.Designer.cs">
+      <DependentUpon>FrmWebHookSPM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\GPUClientSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\GPUClientSettings.Designer.cs">
+      <DependentUpon>GPUClientSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\PEGASUS\EmbeddedAssembly.cs" />
+    <Compile Include="Design\PEGASUS\AeroListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Design\FrmVNC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmVNC.Designer.cs">
+      <DependentUpon>FrmVNC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\PEGASUS\HVNC\FrmMassUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\PEGASUS\HVNC\FrmTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\PEGASUS\HVNC\FrmURL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\PEGASUS\ListViewColumnSorter.cs" />
+    <Compile Include="Design\PEGASUS\NativeMethods.cs" />
+    <Compile Include="Design\PEGASUS\NativeMethodsHelper.cs" />
+    <Compile Include="Design\PEGASUS\PlatformHelper.cs" />
+    <Compile Include="Design\PeToShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\PeToShell.designer.cs">
+      <DependentUpon>PeToShell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\RenamingObfuscation\Overkill\AntiDe4Dot.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\CFlowHelper.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\ControlFlow.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\CryptoRandom.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\DefAnalyzer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\EventDefAnalyzer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\FieldDefAnalyzer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\InjectContext.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\InjectHelper.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\IntAdder.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\IntEncoding.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\L2F.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\MemberRenamer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\MethodDefAnalyzer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\ParameterAnalyzer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\Ovelkill.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\PropertyDefAnalyzer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\ProxyInts.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\Randomizer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\Renamer.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\StringDecoder.cs" />
+    <Compile Include="Design\RenamingObfuscation\Overkill\StringEncryption.cs" />
+    <Compile Include="BytesInOut\HandleCPUMiner.cs" />
+    <Compile Include="BytesInOut\HandleGPUMiner.cs" />
+    <Compile Include="BytesInOut\HandlehRDP.cs" />
+    <Compile Include="IcarusWings\CryptUtil.cs" />
+    <Compile Include="IcarusWings\FileHelper.cs" />
+    <Compile Include="IcarusWings\FormatHelper.cs" />
+    <Compile Include="IcarusWings\LoopUtilities.cs" />
+    <Compile Include="IcarusWings\PreMadeFileInfo.cs" />
+    <Compile Include="IcarusWings\RandomFile.cs" />
+    <Compile Include="IcarusWings\Reverse Proxy\ReverseProxyClient.cs" />
+    <Compile Include="IcarusWings\Reverse Proxy\ReverseProxyServer.cs" />
+    <Compile Include="Design\VNCForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\VNCForm.designer.cs">
+      <DependentUpon>VNCForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BytesInOut\HandleDiscordRecovery.cs" />
+    <Compile Include="BytesInOut\HandlePowerShell.cs" />
+    <Compile Include="BytesInOut\Packet.cs" />
+    <Compile Include="Diadyktio\Clients.cs" />
+    <Compile Include="Design\FormBuilder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormBuilder.designer.cs">
+      <DependentUpon>FormBuilder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmAngry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmAngry.Designer.cs">
+      <DependentUpon>FrmAngry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmNoStub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmNoStub.Designer.cs">
+      <DependentUpon>FrmNoStub.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmKATANA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmKATANA.Designer.cs">
+      <DependentUpon>FrmKATANA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmSplash.designer.cs">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormFun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormFun.Designer.cs">
+      <DependentUpon>FormFun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditBinary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditBinary.Designer.cs">
+      <DependentUpon>FormRegValueEditBinary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormNetstat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormNetstat.designer.cs">
+      <DependentUpon>FormNetstat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditMultiString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditMultiString.Designer.cs">
+      <DependentUpon>FormRegValueEditMultiString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditString.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditString.Designer.cs">
+      <DependentUpon>FormRegValueEditString.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormRegValueEditWord.Designer.cs">
+      <DependentUpon>FormRegValueEditWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormSetting.Designer.cs">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormAbout.cs" />
+    <Compile Include="Design\FormAbout.Designer.cs">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormAudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormAudio.designer.cs">
+      <DependentUpon>FormAudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormBlockClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormBlockClients.Designer.cs">
+      <DependentUpon>FormBlockClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormCertificate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormCertificate.Designer.cs">
+      <DependentUpon>FormCertificate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormChat.Designer.cs">
+      <DependentUpon>FormChat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormDOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormDOS.Designer.cs">
+      <DependentUpon>FormDOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormFileManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormFileManager.Designer.cs">
+      <DependentUpon>FormFileManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormFileSearcher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormFileSearcher.designer.cs">
+      <DependentUpon>FormFileSearcher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormKeylogger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormKeylogger.Designer.cs">
+      <DependentUpon>FormKeylogger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormPorts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormPorts.Designer.cs">
+      <DependentUpon>FormPorts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormProcessManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormProcessManager.Designer.cs">
+      <DependentUpon>FormProcessManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormRemoteDesktop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormRemoteDesktop.Designer.cs">
+      <DependentUpon>FormRemoteDesktop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormDownloadFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormDownloadFile.Designer.cs">
+      <DependentUpon>FormDownloadFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormShell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormShell.Designer.cs">
+      <DependentUpon>FormShell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormWebcam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormWebcam.Designer.cs">
+      <DependentUpon>FormWebcam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FormRegistryEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormRegistryEditor.Designer.cs">
+      <DependentUpon>FormRegistryEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmInfo.Designer.cs">
+      <DependentUpon>FrmInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\FrmReco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FrmReco.Designer.cs">
+      <DependentUpon>FrmReco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\InputDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\RenamingObfuscation\Classes\Base64.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\ClassesRenaming.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\DecryptionHelper.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\FieldsRenaming.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\InjectHelper.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\MethodsRenaming.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\NamespacesRenaming.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\PropertiesRenaming.cs" />
+    <Compile Include="Design\RenamingObfuscation\Classes\Utils.cs" />
+    <Compile Include="Design\RenamingObfuscation\EncryptString.cs" />
+    <Compile Include="Design\RenamingObfuscation\Interfaces\ICrypto.cs" />
+    <Compile Include="Design\RenamingObfuscation\Interfaces\IRenaming.cs" />
+    <Compile Include="Design\RenamingObfuscation\ModuleDefMD.cs" />
+    <Compile Include="Design\Splashes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\Splashes.Designer.cs">
+      <DependentUpon>Splashes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Design\PEGALISIUS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\PEGALISIUS.designer.cs">
+      <DependentUpon>PEGALISIUS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Diadyktio\Welcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Diadyktio\Welcome.Designer.cs">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BytesInOut\HandleAudio.cs" />
+    <Compile Include="BytesInOut\HandleFun.cs" />
+    <Compile Include="BytesInOut\HandleListView.cs" />
+    <Compile Include="BytesInOut\HandlePassword.cs" />
+    <Compile Include="BytesInOut\HandleInformation.cs" />
+    <Compile Include="BytesInOut\HandleNetstat.cs" />
+    <Compile Include="BytesInOut\HandleRecovery.cs" />
+    <Compile Include="BytesInOut\HandleRegManager.cs" />
+    <Compile Include="BytesInOut\HandleFileSearcher.cs" />
+    <Compile Include="BytesInOut\HandleChat.cs" />
+    <Compile Include="BytesInOut\HandleDos.cs" />
+    <Compile Include="BytesInOut\HandleKeylogger.cs" />
+    <Compile Include="BytesInOut\HandleFileManager.cs" />
+    <Compile Include="BytesInOut\HandleLogs.cs" />
+    <Compile Include="BytesInOut\HandlePing.cs" />
+    <Compile Include="BytesInOut\HandleRemoteDesktop.cs" />
+    <Compile Include="BytesInOut\HandleReportWindow.cs" />
+    <Compile Include="BytesInOut\HandleShell.cs" />
+    <Compile Include="BytesInOut\HandleKATANA.cs" />
+    <Compile Include="BytesInOut\HandleThumbnails.cs" />
+    <Compile Include="BytesInOut\HandleWebcam.cs" />
+    <Compile Include="BytesInOut\HandleProcessManager.cs" />
+    <Compile Include="IcarusWings\AsyncTask.cs" />
+    <Compile Include="IcarusWings\Controls\ByteConverter.cs" />
+    <Compile Include="IcarusWings\DingDing.cs" />
+    <Compile Include="IcarusWings\CreateCertificate.cs" />
+    <Compile Include="IcarusWings\Controls\HexEditor\ByteCollection.cs" />
+    <Compile Include="IcarusWings\Controls\HexEditor\Caret.cs" />
+    <Compile Include="IcarusWings\Controls\HexEditor\EditView.cs" />
+    <Compile Include="IcarusWings\Controls\HexEditor\HexEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IcarusWings\Controls\HexEditor\HexViewHandler.cs" />
+    <Compile Include="IcarusWings\Controls\HexEditor\IKeyMouseEventHandler.cs" />
+    <Compile Include="IcarusWings\Controls\HexEditor\StringViewHandler.cs" />
+    <Compile Include="IcarusWings\IconInjector.cs" />
+    <Compile Include="IcarusWings\ListViewColumnSorter.cs" />
+    <Compile Include="IcarusWings\ListviewDoubleBuffer.cs" />
+    <Compile Include="IcarusWings\Controls\ListViewEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IcarusWings\Methods.cs" />
+    <Compile Include="IcarusWings\ReferenceLoader.cs" />
+    <Compile Include="IcarusWings\Controls\Regedit.cs" />
+    <Compile Include="IcarusWings\Controls\RegistryTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IcarusWings\Controls\RegistryValueLstItem.cs" />
+    <Compile Include="IcarusWings\Controls\WordTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="IcarusWings\Controls\WordTextBox.Designer.cs">
+      <DependentUpon>WordTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IcarusWings\RegistryKeyExtensions.cs" />
+    <Compile Include="IcarusWings\RegistryKeyHelper.cs" />
+    <Compile Include="IcarusWings\RegistrySeeker.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="Metafora_Dedomenon\BytesTools.cs" />
+    <Compile Include="Metafora_Dedomenon\MsgPack.cs" />
+    <Compile Include="Metafora_Dedomenon\MsgPackType.cs" />
+    <Compile Include="Metafora_Dedomenon\ReadTools.cs" />
+    <Compile Include="Metafora_Dedomenon\WriteTools.cs" />
+    <Compile Include="Program.cs" />
+    <EmbeddedResource Include="Design\alert.resx">
+      <DependentUpon>alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\CPUClientSettings.resx">
+      <DependentUpon>CPUClientSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\DLLInjectionPanel.resx">
+      <DependentUpon>DLLInjectionPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormMiner.resx">
+      <DependentUpon>FormMiner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormPowerShell.resx">
+      <DependentUpon>FormPowerShell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmCSPM.resx">
+      <DependentUpon>FrmCSPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmDiscordST3.resx">
+      <DependentUpon>FrmDiscordST3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmEmailer.resx">
+      <DependentUpon>FrmEmailer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmNgrokPanel.resx">
+      <DependentUpon>FrmNgrokPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmReverseProxy.resx">
+      <DependentUpon>FrmReverseProxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmWebHookSPM.resx">
+      <DependentUpon>FrmWebHookSPM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\GPUClientSettings.resx">
+      <DependentUpon>GPUClientSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmVNC.resx">
+      <DependentUpon>FrmVNC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PEGASUS\HVNC\FrmMassUpdate.resx">
+      <DependentUpon>FrmMassUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PEGASUS\HVNC\FrmTransfer.resx">
+      <DependentUpon>FrmTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PEGASUS\HVNC\FrmURL.resx">
+      <DependentUpon>FrmURL.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PeToShell.resx">
+      <DependentUpon>PeToShell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\VNCForm.resx">
+      <DependentUpon>VNCForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="strings.en-US.resx" />
+    <None Include="Resources\ConfuserEx.zip" />
+    <None Include="Resources\ip2region.db" />
+    <None Include="Resources\RK.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Design\FormSendFileToMemory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Design\FormSendFileToMemory.Designer.cs">
+      <DependentUpon>FormSendFileToMemory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Diadyktio\Listener.cs" />
+    <Compile Include="IcarusLib\Enums.cs" />
+    <Compile Include="IcarusLib\IUnsafeCodec.cs" />
+    <Compile Include="IcarusLib\IVideoCodec.cs" />
+    <Compile Include="IcarusLib\Metafora_Kwdika\JpgCompression.cs" />
+    <Compile Include="IcarusLib\Metafora_Kwdika\LzwCompression.cs" />
+    <Compile Include="IcarusLib\Metafora_Kwdika\NativeMethods.cs" />
+    <Compile Include="IcarusLib\Metafora_Eikonas\UnsafeStreamCodec.cs" />
+    <EmbeddedResource Include="Design\FormBuilder.resx">
+      <DependentUpon>FormBuilder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmAngry.resx">
+      <DependentUpon>FrmAngry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmNoStub.resx">
+      <DependentUpon>FrmNoStub.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmKATANA.resx">
+      <DependentUpon>FrmKATANA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmSplash.resx">
+      <DependentUpon>FrmSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormFun.resx">
+      <DependentUpon>FormFun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormRegValueEditBinary.resx">
+      <DependentUpon>FormRegValueEditBinary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormAbout.resx">
+      <DependentUpon>FormAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormAudio.resx">
+      <DependentUpon>FormAudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormBlockClients.resx">
+      <DependentUpon>FormBlockClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormCertificate.resx">
+      <DependentUpon>FormCertificate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormChat.resx">
+      <DependentUpon>FormChat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormDOS.resx">
+      <DependentUpon>FormDOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormFileManager.resx">
+      <DependentUpon>FormFileManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormFileSearcher.resx">
+      <DependentUpon>FormFileSearcher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormKeylogger.resx">
+      <DependentUpon>FormKeylogger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormNetstat.resx">
+      <DependentUpon>FormNetstat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormPorts.resx">
+      <DependentUpon>FormPorts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormProcessManager.resx">
+      <DependentUpon>FormProcessManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormRegValueEditMultiString.resx">
+      <DependentUpon>FormRegValueEditMultiString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormRegValueEditString.resx">
+      <DependentUpon>FormRegValueEditString.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormRegValueEditWord.resx">
+      <DependentUpon>FormRegValueEditWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormRemoteDesktop.resx">
+      <DependentUpon>FormRemoteDesktop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormDownloadFile.resx">
+      <DependentUpon>FormDownloadFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormSetting.resx">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormShell.resx">
+      <DependentUpon>FormShell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormWebcam.resx">
+      <DependentUpon>FormWebcam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormRegistryEditor.resx">
+      <DependentUpon>FormRegistryEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmInfo.resx">
+      <DependentUpon>FrmInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FrmReco.resx">
+      <DependentUpon>FrmReco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\InputDialog.resx">
+      <DependentUpon>InputDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\Splashes.resx">
+      <DependentUpon>Splashes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\PEGALISIUS.resx">
+      <DependentUpon>PEGALISIUS.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>PEGALISIUS1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Diadyktio\Welcome.resx">
+      <DependentUpon>Welcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design\FormSendFileToMemory.resx">
+      <DependentUpon>FormSendFileToMemory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tsimpouki.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_50px.png" />
+    <None Include="Resources\Online.wav" />
+    <Content Include="PEGASUS.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del *.xml</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets'))" />
+    <Error Condition="!Exists('..\packages\Fody.6.5.5\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.6.5.5\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.5.7.0\build\Costura.Fody.props'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets'))" />
+  </Target>
+  <Import Project="..\packages\Fody.6.5.5\build\Fody.targets" Condition="Exists('..\packages\Fody.6.5.5\build\Fody.targets')" />
+  <Import Project="..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets" Condition="Exists('..\packages\Costura.Fody.5.7.0\build\Costura.Fody.targets')" />
+</Project>

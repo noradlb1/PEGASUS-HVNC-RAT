@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Logger\Logger\obj\Release\Logger.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Logger\Logger\obj\Release\Logger.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Logger\Logger\obj\Release\LG.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Logger\Logger\obj\Release\Logger.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Logger\Logger\obj\Release\Logger.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Logger\Logger\obj\Release\LG.dll

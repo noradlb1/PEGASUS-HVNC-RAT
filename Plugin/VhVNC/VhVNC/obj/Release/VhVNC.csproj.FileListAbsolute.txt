@@ -1,0 +1,7 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\VhVNC.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\VhVNC.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\VhVNC.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\VhVNC.csproj.Fody.CopyLocal.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\ZEUS.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\VhVNC\VhVNC\obj\Release\ZEUS.pdb

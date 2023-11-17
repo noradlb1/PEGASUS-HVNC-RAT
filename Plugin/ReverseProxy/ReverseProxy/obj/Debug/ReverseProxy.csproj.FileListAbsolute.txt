@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Binaries\Debug\Plugins\RP.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Binaries\Debug\Plugins\RP.pdb
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ReverseProxy\ReverseProxy\obj\Debug\ReverseProxy.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ReverseProxy\ReverseProxy\obj\Debug\ReverseProxy.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ReverseProxy\ReverseProxy\obj\Debug\ReverseProxy.csproj.CopyComplete
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ReverseProxy\ReverseProxy\obj\Debug\RP.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ReverseProxy\ReverseProxy\obj\Debug\RP.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\Plugins\RP.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\Plugins\RP.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ReverseProxy\ReverseProxy\obj\Debug\ReverseProxy.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ReverseProxy\ReverseProxy\obj\Debug\ReverseProxy.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ReverseProxy\ReverseProxy\obj\Debug\ReverseProxy.csproj.CopyComplete
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ReverseProxy\ReverseProxy\obj\Debug\RP.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\ReverseProxy\ReverseProxy\obj\Debug\RP.pdb

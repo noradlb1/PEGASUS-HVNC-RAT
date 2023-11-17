@@ -1,0 +1,10 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Binaries\Release\Stub\Client.exe.config
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Client\obj\Release\Client.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Client\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Client\obj\Release\Client.exe
+C:\Users\admin\Desktop\PEGASUS-HVNC\Binaries\Release\Stub\Client.exe.config
+C:\Users\admin\Desktop\PEGASUS-HVNC\Client\obj\Release\Client.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Client\obj\Release\Client.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Client\obj\Release\Client.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Client\obj\Release\Client.exe

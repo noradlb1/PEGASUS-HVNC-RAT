@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Information\Information\obj\Release\Information.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Information\Information\obj\Release\Information.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Information\Information\obj\Release\IF.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Information\Information\obj\Release\Information.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Information\Information\obj\Release\Information.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Information\Information\obj\Release\IF.dll

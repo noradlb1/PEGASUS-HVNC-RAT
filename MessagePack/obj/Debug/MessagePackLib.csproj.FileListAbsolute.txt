@@ -1,0 +1,4 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Debug\MessagePackLib.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Debug\MessagePackLib.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Debug\MessagePackLib.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\MessagePack\obj\Debug\MessagePackLib.pdb

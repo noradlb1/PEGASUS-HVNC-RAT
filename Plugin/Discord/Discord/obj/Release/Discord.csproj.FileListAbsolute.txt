@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Discord\Discord\obj\Release\Discord.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Discord\Discord\obj\Release\Discord.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Discord\Discord\obj\Release\DCD.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Discord\Discord\obj\Release\Discord.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Discord\Discord\obj\Release\Discord.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Discord\Discord\obj\Release\DCD.dll

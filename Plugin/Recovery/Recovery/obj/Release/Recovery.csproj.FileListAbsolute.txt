@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Recovery\Recovery\obj\Release\Recovery.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Recovery\Recovery\obj\Release\Recovery.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Recovery\Recovery\obj\Release\REC.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Recovery\Recovery\obj\Release\Recovery.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Recovery\Recovery\obj\Release\Recovery.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Recovery\Recovery\obj\Release\REC.dll

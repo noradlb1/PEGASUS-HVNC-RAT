@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Regedit\Regedit\obj\Debug\Regedit.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Regedit\Regedit\obj\Debug\Regedit.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Regedit\Regedit\obj\Debug\REG.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Regedit\Regedit\obj\Debug\REG.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Regedit\Regedit\obj\Debug\Regedit.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Regedit\Regedit\obj\Debug\Regedit.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Regedit\Regedit\obj\Debug\REG.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Regedit\Regedit\obj\Debug\REG.pdb

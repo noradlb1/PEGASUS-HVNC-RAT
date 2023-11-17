@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Release\ProcessManager.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Release\ProcessManager.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\ProcessManager\ProcessManager\obj\Release\PM.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Release\ProcessManager.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Release\ProcessManager.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\ProcessManager\ProcessManager\obj\Release\PM.dll

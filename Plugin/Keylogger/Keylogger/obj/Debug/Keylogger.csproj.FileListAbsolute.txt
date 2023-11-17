@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Binaries\Debug\Plugins\KL.exe.config
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\KL.exe
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Keylogger\Keylogger\obj\Debug\KL.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Binaries\Debug\Plugins\KL.exe.config
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.Properties.Resources.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Keylogger\Keylogger\obj\Debug\Keylogger.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Keylogger\Keylogger\obj\Debug\KL.exe
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Keylogger\Keylogger\obj\Debug\KL.pdb

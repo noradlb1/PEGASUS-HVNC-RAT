@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Fun\Fun\obj\Debug\Fun.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Fun\Fun\obj\Debug\Fun.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Fun\Fun\obj\Debug\FC.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Fun\Fun\obj\Debug\FC.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Fun\Fun\obj\Debug\Fun.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Fun\Fun\obj\Debug\Fun.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Fun\Fun\obj\Debug\FC.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Fun\Fun\obj\Debug\FC.pdb

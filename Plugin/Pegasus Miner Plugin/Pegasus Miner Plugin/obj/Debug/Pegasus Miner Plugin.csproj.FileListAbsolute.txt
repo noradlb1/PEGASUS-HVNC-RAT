@@ -1,0 +1,12 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Pegasus Miner Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Pegasus Miner Plugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Pegasus Miner Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Miner.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Miner.pdb
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Pegasus Miner Plugin.csproj.AssemblyReference.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Plugin.Properties.Resources.resources
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Pegasus Miner Plugin.csproj.GenerateResource.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Pegasus Miner Plugin.csproj.CoreCompileInputs.cache
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Miner.dll
+C:\Users\MONSTERMC\Desktop\PEGASUS-HVNC\PEGASUS-HVNC\Plugin\Pegasus Miner Plugin\Pegasus Miner Plugin\obj\Debug\Miner.pdb

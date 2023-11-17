@@ -1,0 +1,4 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Promitheas\ZEUS\obj\Release\Plugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Promitheas\ZEUS\obj\Release\Plugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Promitheas\ZEUS\obj\Release\KATANA.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Promitheas\ZEUS\obj\Release\KATANA.pdb

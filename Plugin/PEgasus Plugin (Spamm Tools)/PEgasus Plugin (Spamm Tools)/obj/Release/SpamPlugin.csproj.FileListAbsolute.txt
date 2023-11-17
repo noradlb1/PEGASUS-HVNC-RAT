@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Release\SpamPlugin.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Release\Plugin.Properties.Resources.resources
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Release\SpamPlugin.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Release\SpamPlugin.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Release\SPM.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\PEgasus Plugin (Spamm Tools)\PEgasus Plugin (Spamm Tools)\obj\Release\SPM.pdb

@@ -1,0 +1,6 @@
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Netstat\Netstat\obj\Release\Netstat.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Netstat\Netstat\obj\Release\Netstat.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC-FULL-master\Plugin\Netstat\Netstat\obj\Release\Connection.dll
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Netstat\Netstat\obj\Release\Netstat.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Netstat\Netstat\obj\Release\Netstat.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\PEGASUS-HVNC\Plugin\Netstat\Netstat\obj\Release\Connection.dll
